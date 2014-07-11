@@ -1,0 +1,145 @@
+
+Options: -F weka.filters.unsupervised.attribute.RemoveType -W weka.classifiers.functions.MultilayerPerceptron -- -L 0.1 -N 300 
+
+FilteredClassifier using weka.classifiers.functions.MultilayerPerceptron -L 0.1 -M 0.2 -N 300 -V 0 -S 0 -E 20 -H a on data filtered through weka.filters.unsupervised.attribute.RemoveType -T string
+
+Filtered Header
+@relation ForWekaTrain180-weka.filters.unsupervised.attribute.Remove-R2-3-weka.filters.unsupervised.attribute.NumericToNominal-R6-weka.filters.unsupervised.attribute.NumericToNominal-R1-weka.filters.unsupervised.attribute.NominalToString-C1-weka.filters.unsupervised.attribute.RemoveType-Tstring
+
+@attribute avgspeedmph numeric
+@attribute maxspeedmph numeric
+@attribute sddistancelocationsfeet numeric
+@attribute dwelltimeseconds numeric
+@attribute travmode {1,2,3,5,7}
+
+@data
+
+
+Classifier Model
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -3.2839344350226995
+    Node 5    7.628686393924024
+    Node 6    -0.3417056472962058
+    Node 7    -6.2427555334626526
+    Node 8    0.09303422661126702
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -0.5293632000001867
+    Node 5    -7.831914077074851
+    Node 6    3.943348245726399
+    Node 7    -7.331211034589753
+    Node 8    0.9235677355000623
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -3.854883127812725
+    Node 5    -2.102253764406271
+    Node 6    1.4498581434772773
+    Node 7    1.7862938031271693
+    Node 8    3.535096360531966
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -5.97356378171817
+    Node 5    -3.9007679281281376
+    Node 6    3.520977758542331
+    Node 7    3.148927160957529
+    Node 8    -1.246867451284159
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    0.024323667714231112
+    Node 5    -2.182699667572619
+    Node 6    -5.379101184439228
+    Node 7    2.4636573864344107
+    Node 8    -3.976528394715566
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -3.2613758606213428
+    Attrib avgspeedmph    -3.1167842438755256
+    Attrib maxspeedmph    -8.17456476985239
+    Attrib sddistancelocationsfeet    1.3106580044799487
+    Attrib dwelltimeseconds    6.43980678915745
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -0.5689991119790024
+    Attrib avgspeedmph    -7.3278216807638765
+    Attrib maxspeedmph    -1.3278841141287665
+    Attrib sddistancelocationsfeet    -2.2414692384065997
+    Attrib dwelltimeseconds    0.23233418750909163
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    3.032365771454234
+    Attrib avgspeedmph    3.4274247543273777
+    Attrib maxspeedmph    8.432854187504129
+    Attrib sddistancelocationsfeet    0.207365453661058
+    Attrib dwelltimeseconds    -2.9629600848820177
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    -0.42148962928529843
+    Attrib avgspeedmph    1.733573127001901
+    Attrib maxspeedmph    0.9380561976055256
+    Attrib sddistancelocationsfeet    3.641768785481777
+    Attrib dwelltimeseconds    -0.16682299289314886
+Class 1
+    Input
+    Node 0
+Class 2
+    Input
+    Node 1
+Class 3
+    Input
+    Node 2
+Class 5
+    Input
+    Node 3
+Class 7
+    Input
+    Node 4
+
+
+Time taken to build model: 0.91 seconds
+Time taken to test model on training data: 0.06 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         137               76.1111 %
+Incorrectly Classified Instances        43               23.8889 %
+Kappa statistic                          0.7014
+Mean absolute error                      0.1461
+Root mean squared error                  0.2585
+Relative absolute error                 45.6706 %
+Root relative squared error             64.6125 %
+Total Number of Instances              180     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e   <-- classified as
+ 36  0  0  0  0 |  a = 1
+  0 36  0  0  0 |  b = 2
+  1  4  7 18  6 |  c = 3
+  0  2  1 28  5 |  d = 5
+  1  0  2  3 30 |  e = 7
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         131               72.7778 %
+Incorrectly Classified Instances        49               27.2222 %
+Kappa statistic                          0.6597
+Mean absolute error                      0.1626
+Root mean squared error                  0.2761
+Relative absolute error                 50.8016 %
+Root relative squared error             69.0002 %
+Total Number of Instances              180     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e   <-- classified as
+ 35  1  0  0  0 |  a = 1
+  0 36  0  0  0 |  b = 2
+  1  4  5 19  7 |  c = 3
+  0  3  1 27  5 |  d = 5
+  1  0  3  4 28 |  e = 7
+

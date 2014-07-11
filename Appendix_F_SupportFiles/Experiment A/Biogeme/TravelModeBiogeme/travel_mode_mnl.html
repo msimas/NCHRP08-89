@@ -1,0 +1,766 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<script src="http://transp-or.epfl.ch/biogeme/sorttable.js"></script>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>mode_mnl_3~8.html - Report from biogeme 2.2 [Thu Mar 15 14:58:02 WEST 2012]</title>
+<meta name="keywords" content="biogeme, discrete choice, random utility">
+<meta name="description" content="Report from biogeme 2.2 [Thu Mar 15 14:58:02 WEST 2012]">
+<meta name="author" content="Michel Bierlaire">
+<style type=text/css>
+<!--table
+.biostyle
+	{font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	font-family:Courier;}
+.boundstyle
+	{font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	font-family:Courier;
+        color:red}
+-->
+</style>
+</head>
+
+<body bgcolor="#ffffff">
+<h1>biogeme 2.2 [Thu Mar 15 14:58:02 WEST 2012]</h1>
+<h2>Michel Bierlaire, EPFL</h2>
+<p>This file has automatically been generated.</p>
+<p> 05/22/13 13:34:05</p>
+<p><font size='+1'>Tip: click on the columns headers to sort a table  [<a href='http://www.kryogenix.org/code/browser/sorttable/' target='_blank'>Credits</a>]</font></p>
+
+<table>
+</table>
+
+<table border="0">
+<tr class=biostyle ><td align=right><strong>Model</strong>:</td> <td>Multinomial Logit</td></tr>
+<tr class=biostyle><td align=right ><strong>Number of estimated parameters</strong>: </td> <td>21</td></tr>
+<tr class=biostyle><td align=right ><strong>Number of  observations</strong>: </td> <td>177</td></tr>
+<tr class=biostyle><td align=right ><strong>Number of individuals</strong>: </td> <td>177</td></tr>
+<tr class=biostyle><td align=right><strong>Null log-likelihood</strong>:	</td> <td>-284.871</td></tr>
+<tr class=biostyle><td align=right><strong>Cte log-likelihood</strong>:	</td> <td>-284.854</td></tr>
+<tr class=biostyle><td align=right><strong>Init log-likelihood</strong>:	</td> <td>-284.871</td></tr>
+<tr class=biostyle><td align=right><strong>Final log-likelihood</strong>:	</td> <td>-110.833</td></tr>
+<tr class=biostyle><td align=right><strong>Likelihood ratio test</strong>:	</td> <td>348.074</td></tr>
+<tr class=biostyle><td align=right><strong>Rho-square</strong>:		</td> <td>0.611</td></tr>
+<tr class=biostyle><td align=right><strong>Adjusted rho-square</strong>:		</td> <td>0.537</td></tr>
+<tr class=biostyle><td align=right><strong>Final gradient norm</strong>:	</td> <td>+1.015e-004</td></tr>
+<tr class=biostyle><td align=right><strong>Diagnostic</strong>:	</td> <td>Convergence reached...</td></tr>
+<tr class=biostyle><td align=right><strong>Iterations</strong>:	</td> <td>264</td></tr>
+<tr class=biostyle><td align=right><strong>Run time</strong>:	</td> <td>00:02</td></tr>
+<tr class=biostyle><td align=right><strong>Variance-covariance</strong>:	</td> <td>from analytical hessian
+</td></tr>
+<tr class=biostyle><td align=right><strong>Sample file</strong>:	</td><td>sample.dat</td></tr></table>
+<h2>Utility parameters</h2>
+<table border="1" class="sortable">
+<tr class=biostyle><th>Name </th><th>Value		</th><th>Std err		</th><th>t-test</th><th>p-value</th><th></th><th>Robust Std err		</th><th>Robust t-test</th><th>p-value</th><th></th></tr>
+<tr class=biostyle>
+<td>asc_auto</td><td>7.13</td><td>1.80e+308</td><td>0.00</td><td>1.00</td><td>*</td><td>1.24e+006</td><td>0.00</td><td>1.00</td><td>*</td></tr>
+<tr class=biostyle>
+<td>asc_bike</td><td>-7.65</td><td>1.80e+308</td><td>-0.00</td><td>1.00</td><td>*</td><td>1.24e+006</td><td>-0.00</td><td>1.00</td><td>*</td></tr>
+<tr class=biostyle>
+<td>asc_bus</td><td>-7.78</td><td>1.80e+308</td><td>-0.00</td><td>1.00</td><td>*</td><td>1.24e+006</td><td>-0.00</td><td>1.00</td><td>*</td></tr>
+<tr class=biostyle>
+<td>asc_train</td><td>6.44</td><td>1.80e+308</td><td>0.00</td><td>1.00</td><td>*</td><td>1.24e+006</td><td>0.00</td><td>1.00</td><td>*</td></tr>
+<tr class=biostyle>
+<td>asc_walk</td><td>1.86</td><td>1.80e+308</td><td>0.00</td><td>1.00</td><td>*</td><td>1.24e+006</td><td>0.00</td><td>1.00</td><td>*</td></tr>
+<tr class=biostyle>
+<td>auto_highaccel</td><td>16.1</td><td>1.18e+003</td><td>0.01</td><td>0.99</td><td>*</td><td>1.67</td><td>9.65</td><td>0.00</td><td></td></tr>
+<tr class=biostyle>
+<td>auto_higheraccel</td><td>0.785</td><td>0.770</td><td>1.02</td><td>0.31</td><td>*</td><td>0.839</td><td>0.94</td><td>0.35</td><td>*</td></tr>
+<tr class=biostyle>
+<td>auto_highspeed</td><td>1.44</td><td>2.73e+004</td><td>0.00</td><td>1.00</td><td>*</td><td>33.5</td><td>0.04</td><td>0.97</td><td>*</td></tr>
+<tr class=biostyle>
+<td>auto_midspeed</td><td>-0.997</td><td>3.23e+003</td><td>-0.00</td><td>1.00</td><td>*</td><td>1.13</td><td>-0.88</td><td>0.38</td><td>*</td></tr>
+<tr class=biostyle>
+<td>bike_lowspeed</td><td>-0.671</td><td>2.80e+004</td><td>-0.00</td><td>1.00</td><td>*</td><td>34.6</td><td>-0.02</td><td>0.98</td><td>*</td></tr>
+<tr class=biostyle>
+<td>bike_midaccel</td><td>19.0</td><td>1.76e+003</td><td>0.01</td><td>0.99</td><td>*</td><td>0.855</td><td>22.17</td><td>0.00</td><td></td></tr>
+<tr class=biostyle>
+<td>bike_midspeed</td><td>13.3</td><td>2.79e+004</td><td>0.00</td><td>1.00</td><td>*</td><td>34.5</td><td>0.39</td><td>0.70</td><td>*</td></tr>
+<tr class=biostyle>
+<td>bus_highaccel</td><td>31.1</td><td>1.70e+003</td><td>0.02</td><td>0.99</td><td>*</td><td>1.16</td><td>26.82</td><td>0.00</td><td></td></tr>
+<tr class=biostyle>
+<td>bus_higheraccel</td><td>0.468</td><td>0.737</td><td>0.64</td><td>0.52</td><td>*</td><td>0.811</td><td>0.58</td><td>0.56</td><td>*</td></tr>
+<tr class=biostyle>
+<td>bus_highspeed</td><td>1.51</td><td>2.73e+004</td><td>0.00</td><td>1.00</td><td>*</td><td>33.6</td><td>0.04</td><td>0.96</td><td>*</td></tr>
+<tr class=biostyle>
+<td>bus_midspeed</td><td>-0.368</td><td>3.23e+003</td><td>-0.00</td><td>1.00</td><td>*</td><td>1.65</td><td>-0.22</td><td>0.82</td><td>*</td></tr>
+<tr class=biostyle>
+<td>train_highaccel</td><td>-4.46</td><td>6.26e+003</td><td>-0.00</td><td>1.00</td><td>*</td><td>2.33</td><td>-1.92</td><td>0.05</td><td>*</td></tr>
+<tr class=biostyle>
+<td>train_higherspeed</td><td>3.97</td><td>1.06</td><td>3.75</td><td>0.00</td><td></td><td>1.07</td><td>3.71</td><td>0.00</td><td></td></tr>
+<tr class=biostyle>
+<td>train_highspeed</td><td>20.5</td><td>2.79e+004</td><td>0.00</td><td>1.00</td><td>*</td><td>34.6</td><td>0.59</td><td>0.55</td><td>*</td></tr>
+<tr class=biostyle>
+<td>walk_lowaccel</td><td>0.916</td><td>1.30</td><td>0.70</td><td>0.48</td><td>*</td><td>1.30</td><td>0.70</td><td>0.48</td><td>*</td></tr>
+<tr class=biostyle>
+<td>walk_lowspeed</td><td>7.47</td><td>1.44e+004</td><td>0.00</td><td>1.00</td><td>*</td><td>5.89</td><td>1.27</td><td>0.20</td><td>*</td></tr>
+</table>
+<h2>Utility functions</h2>
+<table border="1" class="sortable">
+<tr class=biostyle><th>Id</th><th>Name</th><th>Availability</th><th>Specification</th></tr><tr class=biostyle><td>3</td><td>auto</td><td>one</td><td>asc_auto * one + auto_midspeed * midspeed + auto_highspeed * highspeed + auto_highaccel * highaccel + auto_higheraccel * higheraccel</td></tr>
+<tr class=biostyle><td>2</td><td>bike</td><td>one</td><td>asc_bike * one + bike_lowspeed * lowspeed + bike_midspeed * midspeed + bike_midaccel * midaccel</td></tr>
+<tr class=biostyle><td>5</td><td>bus</td><td>one</td><td>asc_bus * one + bus_midspeed * midspeed + bus_highspeed * highspeed + bus_highaccel * highaccel + bus_higheraccel * higheraccel</td></tr>
+<tr class=biostyle><td>7</td><td>train</td><td>one</td><td>asc_train * one + train_highspeed * highspeed + train_higherspeed * higherspeed + train_highaccel * highaccel</td></tr>
+<tr class=biostyle><td>1</td><td>walk</td><td>one</td><td>asc_walk * one + walk_lowspeed * lowspeed + walk_lowaccel * lowaccel</td></tr>
+</table>
+
+
+
+<h2>Correlation of coefficients</h2>
+<table border="1" class="sortable">
+<tr class=biostyle><th>Coefficient1 </th><th>Coefficient2</th><th>Covariance</th><th>Correlation</th><th>t-test</th><th>p-value</th><th></th><th>Rob. cov.</th><th>Rob. corr.</th><th>Rob. t-test</th><th>p-value</th><th></th></tr>
+<tr class=biostyle><td>
+asc_auto	</td><td>auto_highaccel</td><td>-2.71e+006</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>1.66e+005</td><td>0.0802</td><td>-0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_auto	</td><td>auto_higheraccel</td><td>-0.221</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>-0.0660</td><td>-6.35e-008</td><td>0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_auto	</td><td>auto_highspeed</td><td>7.45e+008</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>-5.82e+007</td><td>-1.40</td><td>0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_auto	</td><td>auto_midspeed</td><td>-8.32e+005</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>1.08e+005</td><td>0.0772</td><td>0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_auto	</td><td>bike_lowspeed</td><td>-8.01e+008</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>6.25e+007</td><td>1.46</td><td>0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_auto	</td><td>bike_midaccel</td><td>-8.69e+003</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>-1.19e+005</td><td>-0.112</td><td>-0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_auto	</td><td>bike_midspeed</td><td>-8.03e+008</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>6.27e+007</td><td>1.47</td><td>-0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_auto	</td><td>bus_highaccel</td><td>-2.96e+006</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>-2.75e+005</td><td>-0.191</td><td>-0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_auto	</td><td>bus_higheraccel</td><td>-0.0547</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>-0.260</td><td>-2.59e-007</td><td>0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_auto	</td><td>bus_highspeed</td><td>7.45e+008</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>-5.81e+007</td><td>-1.40</td><td>0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_auto	</td><td>bus_midspeed</td><td>-8.32e+005</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>1.08e+005</td><td>0.0525</td><td>0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_auto	</td><td>train_highaccel</td><td>-5.70e+007</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>4.52e+006</td><td>1.57</td><td>0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_auto	</td><td>train_higherspeed</td><td>0.279</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>0.192</td><td>1.45e-007</td><td>0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_auto	</td><td>train_highspeed</td><td>7.99e+008</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>-6.25e+007</td><td>-1.46</td><td>-0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_auto	</td><td>walk_lowaccel</td><td>1.60</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>2.88</td><td>1.78e-006</td><td>0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_auto	</td><td>walk_lowspeed</td><td>-5.21e+007</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>8.71e+006</td><td>1.19</td><td>-0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_bike	</td><td>asc_walk</td><td>-2.65e+013</td><td>-1.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>1.54e+012</td><td>1.00</td><td>0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_bike	</td><td>auto_highaccel</td><td>-3.17e+006</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>1.66e+005</td><td>0.0802</td><td>-0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_bike	</td><td>auto_higheraccel</td><td>-0.235</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>0.0155</td><td>1.49e-008</td><td>-0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_bike	</td><td>auto_highspeed</td><td>1.49e+009</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>-5.82e+007</td><td>-1.40</td><td>-0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_bike	</td><td>auto_midspeed</td><td>8.26e+006</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>1.08e+005</td><td>0.0772</td><td>-0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_bike	</td><td>bike_lowspeed</td><td>-1.59e+009</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>6.25e+007</td><td>1.46</td><td>-0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_bike	</td><td>bike_midaccel</td><td>-3.79e+006</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>-1.19e+005</td><td>-0.112</td><td>-0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_bike	</td><td>bike_midspeed</td><td>-1.58e+009</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>6.27e+007</td><td>1.46</td><td>-0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_bike	</td><td>bus_highaccel</td><td>-3.43e+006</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>-2.75e+005</td><td>-0.191</td><td>-0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_bike	</td><td>bus_higheraccel</td><td>-0.0581</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>-0.221</td><td>-2.20e-007</td><td>-0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_bike	</td><td>bus_highspeed</td><td>1.49e+009</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>-5.81e+007</td><td>-1.40</td><td>-0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_bike	</td><td>bus_midspeed</td><td>8.26e+006</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>1.08e+005</td><td>0.0525</td><td>-0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_bike	</td><td>train_highaccel</td><td>-9.34e+007</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>4.52e+006</td><td>1.57</td><td>-0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_bike	</td><td>train_higherspeed</td><td>0.0944</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>-0.0108</td><td>-8.09e-009</td><td>-0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_bike	</td><td>train_highspeed</td><td>1.58e+009</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>-6.25e+007</td><td>-1.46</td><td>-0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_bike	</td><td>walk_lowaccel</td><td>3.43</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>4.02</td><td>2.49e-006</td><td>-0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_bike	</td><td>walk_lowspeed</td><td>-2.57e+008</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>8.71e+006</td><td>1.19</td><td>-0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_bus	</td><td>auto_highaccel</td><td>-2.71e+006</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>1.66e+005</td><td>0.0802</td><td>-0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_bus	</td><td>auto_higheraccel</td><td>-0.221</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>-0.0649</td><td>-6.24e-008</td><td>-0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_bus	</td><td>auto_highspeed</td><td>7.45e+008</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>-5.82e+007</td><td>-1.40</td><td>-0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_bus	</td><td>auto_midspeed</td><td>-8.32e+005</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>1.08e+005</td><td>0.0772</td><td>-0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_bus	</td><td>bike_lowspeed</td><td>-8.01e+008</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>6.25e+007</td><td>1.46</td><td>-0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_bus	</td><td>bike_midaccel</td><td>-8.69e+003</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>-1.19e+005</td><td>-0.112</td><td>-0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_bus	</td><td>bike_midspeed</td><td>-8.03e+008</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>6.27e+007</td><td>1.46</td><td>-0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_bus	</td><td>bus_highaccel</td><td>-4.45e+006</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>-2.75e+005</td><td>-0.191</td><td>-0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_bus	</td><td>bus_higheraccel</td><td>-0.0547</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>-0.259</td><td>-2.57e-007</td><td>-0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_bus	</td><td>bus_highspeed</td><td>7.45e+008</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>-5.81e+007</td><td>-1.40</td><td>-0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_bus	</td><td>bus_midspeed</td><td>-8.32e+005</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>1.08e+005</td><td>0.0525</td><td>-0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_bus	</td><td>train_highaccel</td><td>-5.70e+007</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>4.52e+006</td><td>1.57</td><td>-0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_bus	</td><td>train_higherspeed</td><td>0.279</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>0.191</td><td>1.44e-007</td><td>-0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_bus	</td><td>train_highspeed</td><td>7.99e+008</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>-6.25e+007</td><td>-1.46</td><td>-0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_bus	</td><td>walk_lowaccel</td><td>1.60</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>2.63</td><td>1.62e-006</td><td>-0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_bus	</td><td>walk_lowspeed</td><td>-5.21e+007</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>8.71e+006</td><td>1.19</td><td>-0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_train	</td><td>auto_highaccel</td><td>-2.71e+006</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>1.66e+005</td><td>0.0803</td><td>-0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_train	</td><td>auto_higheraccel</td><td>-0.221</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>-0.0640</td><td>-6.16e-008</td><td>0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_train	</td><td>auto_highspeed</td><td>7.45e+008</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>-5.82e+007</td><td>-1.40</td><td>0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_train	</td><td>auto_midspeed</td><td>-8.32e+005</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>1.08e+005</td><td>0.0772</td><td>0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_train	</td><td>bike_lowspeed</td><td>-8.01e+008</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>6.25e+007</td><td>1.46</td><td>0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_train	</td><td>bike_midaccel</td><td>-8.69e+003</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>-1.19e+005</td><td>-0.112</td><td>-0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_train	</td><td>bike_midspeed</td><td>-8.03e+008</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>6.27e+007</td><td>1.47</td><td>-0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_train	</td><td>bus_highaccel</td><td>-2.96e+006</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>-2.75e+005</td><td>-0.191</td><td>-0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_train	</td><td>bus_higheraccel</td><td>-0.0547</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>-0.257</td><td>-2.56e-007</td><td>0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_train	</td><td>bus_highspeed</td><td>7.45e+008</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>-5.81e+007</td><td>-1.40</td><td>0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_train	</td><td>bus_midspeed</td><td>-8.32e+005</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>1.08e+005</td><td>0.0525</td><td>0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_train	</td><td>train_highaccel</td><td>-5.70e+007</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>4.52e+006</td><td>1.57</td><td>0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_train	</td><td>train_higherspeed</td><td>0.279</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>0.191</td><td>1.43e-007</td><td>0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_train	</td><td>train_highspeed</td><td>7.99e+008</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>-6.25e+007</td><td>-1.46</td><td>-0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_train	</td><td>walk_lowaccel</td><td>1.60</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>2.13</td><td>1.32e-006</td><td>0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_train	</td><td>walk_lowspeed</td><td>-5.21e+007</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>8.71e+006</td><td>1.19</td><td>-0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_walk	</td><td>auto_highaccel</td><td>-2.17e+006</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>1.66e+005</td><td>0.0802</td><td>-0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_walk	</td><td>auto_higheraccel</td><td>-0.0964</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>0.0643</td><td>6.18e-008</td><td>0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_walk	</td><td>auto_highspeed</td><td>9.50e+008</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>-5.82e+007</td><td>-1.40</td><td>0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_walk	</td><td>auto_midspeed</td><td>7.65e+006</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>1.08e+005</td><td>0.0772</td><td>0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_walk	</td><td>bike_lowspeed</td><td>-1.01e+009</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>6.25e+007</td><td>1.46</td><td>0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_walk	</td><td>bike_midaccel</td><td>-1.17e+006</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>-1.19e+005</td><td>-0.112</td><td>-0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_walk	</td><td>bike_midspeed</td><td>-1.00e+009</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>6.27e+007</td><td>1.47</td><td>-0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_walk	</td><td>bus_highaccel</td><td>-2.43e+006</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>-2.75e+005</td><td>-0.191</td><td>-0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_walk	</td><td>bus_higheraccel</td><td>0.0194</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>-0.125</td><td>-1.25e-007</td><td>0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_walk	</td><td>bus_highspeed</td><td>9.50e+008</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>-5.81e+007</td><td>-1.40</td><td>0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_walk	</td><td>bus_midspeed</td><td>7.65e+006</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>1.08e+005</td><td>0.0525</td><td>0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_walk	</td><td>train_highaccel</td><td>-5.52e+007</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>4.52e+006</td><td>1.57</td><td>0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_walk	</td><td>train_higherspeed</td><td>0.244</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>0.0796</td><td>5.99e-008</td><td>-0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_walk	</td><td>train_highspeed</td><td>1.00e+009</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>-6.25e+007</td><td>-1.46</td><td>-0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_walk	</td><td>walk_lowaccel</td><td>1.63</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>2.07</td><td>1.28e-006</td><td>0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_walk	</td><td>walk_lowspeed</td><td>-2.58e+008</td><td>0.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>8.71e+006</td><td>1.19</td><td>-0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_bike	</td><td>asc_bus</td><td>-2.65e+013</td><td>-1.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>1.54e+012</td><td>1.00</td><td>0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+bike_lowspeed	</td><td>bus_midspeed</td><td>-7.61e+006</td><td>-0.0840</td><td>-0.00</td><td>1.00	</td><td>*</td><td>-6.03</td><td>-0.105</td><td>-0.01</td><td>0.99	</td><td>*</td><tr class=biostyle><td>
+auto_midspeed	</td><td>bike_lowspeed</td><td>-7.61e+006</td><td>-0.0841</td><td>-0.00</td><td>1.00	</td><td>*</td><td>0.431</td><td>0.0110</td><td>-0.01</td><td>0.99	</td><td>*</td><tr class=biostyle><td>
+auto_highspeed	</td><td>walk_lowaccel</td><td>0.990</td><td>2.78e-005</td><td>0.00</td><td>1.00	</td><td>*</td><td>0.380</td><td>0.00869</td><td>0.02</td><td>0.99	</td><td>*</td><tr class=biostyle><td>
+bus_highspeed	</td><td>walk_lowaccel</td><td>0.990</td><td>2.78e-005</td><td>0.00</td><td>1.00	</td><td>*</td><td>0.380</td><td>0.00868</td><td>0.02</td><td>0.99	</td><td>*</td><tr class=biostyle><td>
+auto_higheraccel	</td><td>auto_highspeed</td><td>-0.0929</td><td>-4.41e-006</td><td>-0.00</td><td>1.00	</td><td>*</td><td>-0.0413</td><td>-0.00147</td><td>-0.02</td><td>0.98	</td><td>*</td><tr class=biostyle><td>
+auto_higheraccel	</td><td>bus_highspeed</td><td>0.0192</td><td>9.15e-007</td><td>-0.00</td><td>1.00	</td><td>*</td><td>0.0424</td><td>0.00151</td><td>-0.02</td><td>0.98	</td><td>*</td><tr class=biostyle><td>
+auto_highspeed	</td><td>bus_higheraccel</td><td>-0.0505</td><td>-2.51e-006</td><td>0.00</td><td>1.00	</td><td>*</td><td>-0.0926</td><td>-0.00341</td><td>0.03</td><td>0.98	</td><td>*</td><tr class=biostyle><td>
+bus_higheraccel	</td><td>bus_highspeed</td><td>-0.133</td><td>-6.60e-006</td><td>-0.00</td><td>1.00	</td><td>*</td><td>-0.199</td><td>-0.00730</td><td>-0.03</td><td>0.98	</td><td>*</td><tr class=biostyle><td>
+auto_highspeed	</td><td>bike_lowspeed</td><td>-7.44e+008</td><td>-0.974</td><td>0.00</td><td>1.00	</td><td>*</td><td>-1.16e+003</td><td>-1.00</td><td>0.03</td><td>0.98	</td><td>*</td><tr class=biostyle><td>
+bike_lowspeed	</td><td>bus_highspeed</td><td>-7.44e+008</td><td>-0.974</td><td>-0.00</td><td>1.00	</td><td>*</td><td>-1.15e+003</td><td>-0.995</td><td>-0.03</td><td>0.97	</td><td>*</td><tr class=biostyle><td>
+bike_lowspeed	</td><td>bus_higheraccel</td><td>0.0440</td><td>2.14e-006</td><td>-0.00</td><td>1.00	</td><td>*</td><td>0.0321</td><td>0.00114</td><td>-0.03</td><td>0.97	</td><td>*</td><tr class=biostyle><td>
+auto_higheraccel	</td><td>bike_lowspeed</td><td>0.0821</td><td>3.81e-006</td><td>0.00</td><td>1.00	</td><td>*</td><td>-0.0126</td><td>-0.000434</td><td>0.04</td><td>0.97	</td><td>*</td><tr class=biostyle><td>
+bike_midaccel	</td><td>train_highspeed</td><td>-6.70e+005</td><td>-0.0136</td><td>-0.00</td><td>1.00	</td><td>*</td><td>5.21</td><td>0.176</td><td>-0.04</td><td>0.97	</td><td>*</td><tr class=biostyle><td>
+bike_lowspeed	</td><td>walk_lowaccel</td><td>-1.84</td><td>-5.05e-005</td><td>-0.00</td><td>1.00	</td><td>*</td><td>-1.46</td><td>-0.0324</td><td>-0.05</td><td>0.96	</td><td>*</td><tr class=biostyle><td>
+auto_highspeed	</td><td>bus_midspeed</td><td>9.08e+006</td><td>0.103</td><td>0.00</td><td>1.00	</td><td>*</td><td>5.98</td><td>0.108</td><td>0.05</td><td>0.96	</td><td>*</td><tr class=biostyle><td>
+bus_highspeed	</td><td>bus_midspeed</td><td>9.08e+006</td><td>0.103</td><td>0.00</td><td>1.00	</td><td>*</td><td>7.84</td><td>0.141</td><td>0.06</td><td>0.96	</td><td>*</td><tr class=biostyle><td>
+auto_highspeed	</td><td>auto_midspeed</td><td>9.08e+006</td><td>0.103</td><td>0.00</td><td>1.00	</td><td>*</td><td>6.71</td><td>0.177</td><td>0.07</td><td>0.94	</td><td>*</td><tr class=biostyle><td>
+bus_highspeed	</td><td>train_higherspeed</td><td>-0.0216</td><td>-7.45e-007</td><td>-0.00</td><td>1.00	</td><td>*</td><td>0.0244</td><td>0.000677</td><td>-0.07</td><td>0.94	</td><td>*</td><tr class=biostyle><td>
+auto_midspeed	</td><td>bus_highspeed</td><td>9.08e+006</td><td>0.103</td><td>-0.00</td><td>1.00	</td><td>*</td><td>-0.442</td><td>-0.0116</td><td>-0.07</td><td>0.94	</td><td>*</td><tr class=biostyle><td>
+auto_highspeed	</td><td>train_higherspeed</td><td>-0.0216</td><td>-7.45e-007</td><td>-0.00</td><td>1.00	</td><td>*</td><td>0.00671</td><td>0.000187</td><td>-0.08</td><td>0.94	</td><td>*</td><tr class=biostyle><td>
+auto_highaccel	</td><td>bike_midspeed</td><td>7.65e+005</td><td>0.0232</td><td>0.00</td><td>1.00	</td><td>*</td><td>4.81</td><td>0.0838</td><td>0.08</td><td>0.94	</td><td>*</td><tr class=biostyle><td>
+bike_midspeed	</td><td>train_highspeed</td><td>-7.75e+008</td><td>-0.994</td><td>-0.00</td><td>1.00	</td><td>*</td><td>-1.19e+003</td><td>-1.00</td><td>-0.10</td><td>0.92	</td><td>*</td><tr class=biostyle><td>
+bike_lowspeed	</td><td>train_highaccel</td><td>3.69e+007</td><td>0.211</td><td>0.00</td><td>1.00	</td><td>*</td><td>43.3</td><td>0.539</td><td>0.11</td><td>0.91	</td><td>*</td><tr class=biostyle><td>
+auto_highaccel	</td><td>train_highspeed</td><td>-7.54e+005</td><td>-0.0229</td><td>-0.00</td><td>1.00	</td><td>*</td><td>-4.77</td><td>-0.0829</td><td>-0.13</td><td>0.90	</td><td>*</td><tr class=biostyle><td>
+bus_highspeed	</td><td>walk_lowspeed</td><td>-2.05e+008</td><td>-0.524</td><td>-0.00</td><td>1.00	</td><td>*</td><td>-213.</td><td>-1.08</td><td>-0.15</td><td>0.88	</td><td>*</td><tr class=biostyle><td>
+auto_highspeed	</td><td>walk_lowspeed</td><td>-2.05e+008</td><td>-0.524</td><td>-0.00</td><td>1.00	</td><td>*</td><td>-213.</td><td>-1.08</td><td>-0.15</td><td>0.88	</td><td>*</td><tr class=biostyle><td>
+bike_lowspeed	</td><td>train_higherspeed</td><td>0.176</td><td>5.91e-006</td><td>-0.00</td><td>1.00	</td><td>*</td><td>0.151</td><td>0.00406</td><td>-0.13</td><td>0.89	</td><td>*</td><tr class=biostyle><td>
+bike_midaccel	</td><td>bike_midspeed</td><td>6.98e+005</td><td>0.0142</td><td>0.00</td><td>1.00	</td><td>*</td><td>-5.20</td><td>-0.176</td><td>0.16</td><td>0.87	</td><td>*</td><tr class=biostyle><td>
+auto_highspeed	</td><td>train_highaccel</td><td>9.94e+005</td><td>0.00581</td><td>0.00</td><td>1.00	</td><td>*</td><td>-40.9</td><td>-0.524</td><td>0.17</td><td>0.87	</td><td>*</td><tr class=biostyle><td>
+bus_highspeed	</td><td>train_highaccel</td><td>9.94e+005</td><td>0.00581</td><td>0.00</td><td>1.00	</td><td>*</td><td>-39.6</td><td>-0.507</td><td>0.17</td><td>0.86	</td><td>*</td><tr class=biostyle><td>
+bike_midspeed	</td><td>bus_highspeed</td><td>-7.38e+008</td><td>-0.968</td><td>0.00</td><td>1.00	</td><td>*</td><td>-1.15e+003</td><td>-0.996</td><td>0.17</td><td>0.86	</td><td>*</td><tr class=biostyle><td>
+auto_highspeed	</td><td>bike_midspeed</td><td>-7.38e+008</td><td>-0.968</td><td>-0.00</td><td>1.00	</td><td>*</td><td>-1.16e+003</td><td>-1.00</td><td>-0.17</td><td>0.86	</td><td>*</td><tr class=biostyle><td>
+bike_midspeed	</td><td>walk_lowspeed</td><td>1.98e+008</td><td>0.495</td><td>0.00</td><td>1.00	</td><td>*</td><td>214.</td><td>1.05</td><td>0.21</td><td>0.84	</td><td>*</td><tr class=biostyle><td>
+train_higherspeed	</td><td>walk_lowspeed</td><td>0.0356</td><td>2.34e-006</td><td>-0.00</td><td>1.00	</td><td>*</td><td>0.111</td><td>0.0176</td><td>-0.59</td><td>0.56	</td><td>*</td><tr class=biostyle><td>
+asc_train	</td><td>asc_walk</td><td>-2.65e+013</td><td>-1.00</td><td>-0.00</td><td>1.00	</td><td>*</td><td>1.54e+012</td><td>1.00</td><td>-0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+bus_higheraccel	</td><td>bus_midspeed</td><td>-0.211</td><td>-8.86e-005</td><td>0.00</td><td>1.00	</td><td>*</td><td>-0.257</td><td>-0.192</td><td>0.42</td><td>0.67	</td><td>*</td><tr class=biostyle><td>
+asc_bike	</td><td>asc_walk</td><td>-2.65e+013</td><td>-1.00</td><td>-0.00</td><td>1.00	</td><td>*</td><td>1.54e+012</td><td>1.00</td><td>-0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+bike_midspeed	</td><td>train_higherspeed</td><td>0.157</td><td>5.31e-006</td><td>0.00</td><td>1.00	</td><td>*</td><td>0.132</td><td>0.00357</td><td>0.27</td><td>0.79	</td><td>*</td><tr class=biostyle><td>
+bike_lowspeed	</td><td>walk_lowspeed</td><td>2.04e+008</td><td>0.509</td><td>-0.00</td><td>1.00	</td><td>*</td><td>215.</td><td>1.06</td><td>-0.29</td><td>0.77	</td><td>*</td><tr class=biostyle><td>
+train_highspeed	</td><td>walk_lowspeed</td><td>-2.04e+008</td><td>-0.509</td><td>0.00</td><td>1.00	</td><td>*</td><td>-214.</td><td>-1.05</td><td>0.32</td><td>0.75	</td><td>*</td><tr class=biostyle><td>
+auto_higheraccel	</td><td>bus_midspeed</td><td>0.00868</td><td>3.48e-006</td><td>0.00</td><td>1.00	</td><td>*</td><td>0.0187</td><td>0.0135</td><td>0.63</td><td>0.53	</td><td>*</td><tr class=biostyle><td>
+asc_bike	</td><td>asc_train</td><td>-2.65e+013</td><td>-1.00</td><td>-0.00</td><td>1.00	</td><td>*</td><td>1.54e+012</td><td>0.999</td><td>-0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_auto	</td><td>asc_bike</td><td>-2.65e+013</td><td>-1.00</td><td>-0.00</td><td>1.00	</td><td>*</td><td>1.54e+012</td><td>1.00</td><td>-0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+bike_lowspeed	</td><td>train_highspeed</td><td>-7.80e+008</td><td>-0.998</td><td>-0.00</td><td>1.00	</td><td>*</td><td>-1.19e+003</td><td>-0.998</td><td>-0.31</td><td>0.76	</td><td>*</td><tr class=biostyle><td>
+bus_highaccel	</td><td>train_highspeed</td><td>-7.54e+005</td><td>-0.0159</td><td>0.00</td><td>1.00	</td><td>*</td><td>11.0</td><td>0.273</td><td>0.31</td><td>0.76	</td><td>*</td><tr class=biostyle><td>
+bus_midspeed	</td><td>walk_lowaccel</td><td>1.03</td><td>0.000245</td><td>-0.00</td><td>1.00	</td><td>*</td><td>0.379</td><td>0.176</td><td>-0.67</td><td>0.50	</td><td>*</td><tr class=biostyle><td>
+bike_midspeed	</td><td>walk_lowaccel</td><td>-0.864</td><td>-2.37e-005</td><td>0.00</td><td>1.00	</td><td>*</td><td>-0.980</td><td>-0.0218</td><td>0.36</td><td>0.72	</td><td>*</td><tr class=biostyle><td>
+auto_higheraccel	</td><td>bike_midspeed</td><td>0.0829</td><td>3.85e-006</td><td>-0.00</td><td>1.00	</td><td>*</td><td>-0.00667</td><td>-0.000230</td><td>-0.36</td><td>0.72	</td><td>*</td><tr class=biostyle><td>
+auto_midspeed	</td><td>bus_higheraccel</td><td>-0.0851</td><td>-3.57e-005</td><td>-0.00</td><td>1.00	</td><td>*</td><td>-0.132</td><td>-0.144</td><td>-0.99</td><td>0.32	</td><td>*</td><tr class=biostyle><td>
+walk_lowaccel	</td><td>walk_lowspeed</td><td>-1.20</td><td>-6.43e-005</td><td>-0.00</td><td>1.00	</td><td>*</td><td>-0.614</td><td>-0.0800</td><td>-1.07</td><td>0.29	</td><td>*</td><tr class=biostyle><td>
+bike_midspeed	</td><td>bus_higheraccel</td><td>0.0445</td><td>2.16e-006</td><td>0.00</td><td>1.00	</td><td>*</td><td>0.0388</td><td>0.00139</td><td>0.37</td><td>0.71	</td><td>*</td><tr class=biostyle><td>
+auto_higheraccel	</td><td>walk_lowspeed</td><td>-0.124</td><td>-1.12e-005</td><td>-0.00</td><td>1.00	</td><td>*</td><td>-0.129</td><td>-0.0261</td><td>-1.12</td><td>0.26	</td><td>*</td><tr class=biostyle><td>
+bike_midspeed	</td><td>bus_midspeed</td><td>-1.83e+006</td><td>-0.0202</td><td>0.00</td><td>1.00	</td><td>*</td><td>-5.09</td><td>-0.0892</td><td>0.39</td><td>0.69	</td><td>*</td><tr class=biostyle><td>
+bus_higheraccel	</td><td>walk_lowspeed</td><td>-0.0742</td><td>-7.02e-006</td><td>-0.00</td><td>1.00	</td><td>*</td><td>-0.133</td><td>-0.0278</td><td>-1.17</td><td>0.24	</td><td>*</td><tr class=biostyle><td>
+auto_midspeed	</td><td>train_highaccel</td><td>8.82e+005</td><td>0.0436</td><td>0.00</td><td>1.00	</td><td>*</td><td>-0.0485</td><td>-0.0184</td><td>1.33</td><td>0.18	</td><td>*</td><tr class=biostyle><td>
+auto_midspeed	</td><td>bike_midspeed</td><td>-1.83e+006</td><td>-0.0202</td><td>-0.00</td><td>1.00	</td><td>*</td><td>1.39</td><td>0.0355</td><td>-0.41</td><td>0.68	</td><td>*</td><tr class=biostyle><td>
+bus_midspeed	</td><td>walk_lowspeed</td><td>-8.48e+006</td><td>-0.183</td><td>-0.00</td><td>1.00	</td><td>*</td><td>-2.02</td><td>-0.208</td><td>-1.22</td><td>0.22	</td><td>*</td><tr class=biostyle><td>
+asc_train	</td><td>asc_walk</td><td>-2.65e+013</td><td>-1.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>1.54e+012</td><td>1.00</td><td>0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_bus	</td><td>asc_walk</td><td>-2.65e+013</td><td>-1.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>1.54e+012</td><td>1.00</td><td>0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+auto_highaccel	</td><td>bus_highspeed</td><td>-8.38e+005</td><td>-0.0260</td><td>0.00</td><td>1.00	</td><td>*</td><td>-2.64</td><td>-0.0473</td><td>0.43</td><td>0.67	</td><td>*</td><tr class=biostyle><td>
+auto_highaccel	</td><td>auto_highspeed</td><td>-8.38e+005</td><td>-0.0260</td><td>0.00</td><td>1.00	</td><td>*</td><td>-3.97</td><td>-0.0710</td><td>0.43</td><td>0.66	</td><td>*</td><tr class=biostyle><td>
+auto_higheraccel	</td><td>auto_midspeed</td><td>-0.143</td><td>-5.73e-005</td><td>0.00</td><td>1.00	</td><td>*</td><td>-0.130</td><td>-0.137</td><td>1.19</td><td>0.23	</td><td>*</td><tr class=biostyle><td>
+auto_midspeed	</td><td>walk_lowspeed</td><td>-8.48e+006</td><td>-0.183</td><td>-0.00</td><td>1.00	</td><td>*</td><td>-1.42</td><td>-0.212</td><td>-1.36</td><td>0.17	</td><td>*</td><tr class=biostyle><td>
+train_higherspeed	</td><td>train_highspeed</td><td>-0.196</td><td>-6.63e-006</td><td>-0.00</td><td>1.00	</td><td>*</td><td>-0.172</td><td>-0.00464</td><td>-0.48</td><td>0.63	</td><td>*</td><tr class=biostyle><td>
+asc_auto	</td><td>asc_walk</td><td>-2.65e+013</td><td>-1.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>1.54e+012</td><td>1.00</td><td>0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+auto_midspeed	</td><td>walk_lowaccel</td><td>1.03</td><td>0.000245</td><td>-0.00</td><td>1.00	</td><td>*</td><td>0.379</td><td>0.257</td><td>-1.28</td><td>0.20	</td><td>*</td><tr class=biostyle><td>
+bus_midspeed	</td><td>train_highaccel</td><td>8.82e+005</td><td>0.0436</td><td>0.00</td><td>1.00	</td><td>*</td><td>1.24</td><td>0.323</td><td>1.72</td><td>0.09	</td><td>*</td><tr class=biostyle><td>
+auto_highaccel	</td><td>walk_lowspeed</td><td>-5.34e+005</td><td>-0.0316</td><td>0.00</td><td>1.00	</td><td>*</td><td>0.378</td><td>0.0386</td><td>1.42</td><td>0.16	</td><td>*</td><tr class=biostyle><td>
+auto_highaccel	</td><td>bike_lowspeed</td><td>7.54e+005</td><td>0.0228</td><td>0.00</td><td>1.00	</td><td>*</td><td>5.19</td><td>0.0902</td><td>0.49</td><td>0.63	</td><td>*</td><tr class=biostyle><td>
+bike_midaccel	</td><td>bus_highspeed</td><td>-8.78e+005</td><td>-0.0182</td><td>0.00</td><td>1.00	</td><td>*</td><td>4.87</td><td>0.170</td><td>0.52</td><td>0.60	</td><td>*</td><tr class=biostyle><td>
+bike_midspeed	</td><td>bus_highaccel</td><td>7.65e+005</td><td>0.0162</td><td>-0.00</td><td>1.00	</td><td>*</td><td>1.71</td><td>0.0426</td><td>-0.52</td><td>0.61	</td><td>*</td><tr class=biostyle><td>
+auto_highspeed	</td><td>bike_midaccel</td><td>-8.78e+005</td><td>-0.0182</td><td>-0.00</td><td>1.00	</td><td>*</td><td>1.08</td><td>0.0378</td><td>-0.52</td><td>0.60	</td><td>*</td><tr class=biostyle><td>
+bike_midspeed	</td><td>train_highaccel</td><td>3.77e+007</td><td>0.216</td><td>0.00</td><td>1.00	</td><td>*</td><td>43.3</td><td>0.540</td><td>0.53</td><td>0.59	</td><td>*</td><tr class=biostyle><td>
+train_highspeed	</td><td>walk_lowaccel</td><td>0.845</td><td>2.32e-005</td><td>0.00</td><td>1.00	</td><td>*</td><td>0.958</td><td>0.0213</td><td>0.57</td><td>0.57	</td><td>*</td><tr class=biostyle><td>
+bike_lowspeed	</td><td>bike_midaccel</td><td>6.70e+005</td><td>0.0136</td><td>-0.00</td><td>1.00	</td><td>*</td><td>-0.462</td><td>-0.0156</td><td>-0.57</td><td>0.57	</td><td>*</td><tr class=biostyle><td>
+auto_higheraccel	</td><td>train_highspeed</td><td>-0.0814</td><td>-3.78e-006</td><td>-0.00</td><td>1.00	</td><td>*</td><td>0.0196</td><td>0.000676</td><td>-0.57</td><td>0.57	</td><td>*</td><tr class=biostyle><td>
+bus_higheraccel	</td><td>train_highspeed</td><td>-0.0433</td><td>-2.11e-006</td><td>-0.00</td><td>1.00	</td><td>*</td><td>-0.0256</td><td>-0.000913</td><td>-0.58</td><td>0.56	</td><td>*</td><tr class=biostyle><td>
+bus_midspeed	</td><td>train_highspeed</td><td>7.61e+006</td><td>0.0842</td><td>-0.00</td><td>1.00	</td><td>*</td><td>-2.01</td><td>-0.0352</td><td>-0.60</td><td>0.55	</td><td>*</td><tr class=biostyle><td>
+train_highaccel	</td><td>walk_lowspeed</td><td>-1.72e+006</td><td>-0.0192</td><td>-0.00</td><td>1.00	</td><td>*</td><td>2.41</td><td>0.176</td><td>-2.01</td><td>0.04	</td><td></td><tr class=biostyle><td>
+auto_midspeed	</td><td>train_highspeed</td><td>7.61e+006</td><td>0.0842</td><td>-0.00</td><td>1.00	</td><td>*</td><td>-1.35</td><td>-0.0345</td><td>-0.62</td><td>0.54	</td><td>*</td><tr class=biostyle><td>
+bus_higheraccel	</td><td>train_highaccel</td><td>0.133</td><td>2.89e-005</td><td>0.00</td><td>1.00	</td><td>*</td><td>0.500</td><td>0.265</td><td>2.19</td><td>0.03	</td><td></td><tr class=biostyle><td>
+bike_midaccel	</td><td>walk_lowspeed</td><td>1.16e+006</td><td>0.0458</td><td>0.00</td><td>1.00	</td><td>*</td><td>-0.207</td><td>-0.0410</td><td>1.92</td><td>0.05	</td><td>*</td><tr class=biostyle><td>
+train_highaccel	</td><td>train_highspeed</td><td>-3.69e+007</td><td>-0.211</td><td>-0.00</td><td>1.00	</td><td>*</td><td>-38.3</td><td>-0.476</td><td>-0.70</td><td>0.49	</td><td>*</td><tr class=biostyle><td>
+auto_higheraccel	</td><td>train_highaccel</td><td>0.223</td><td>4.62e-005</td><td>0.00</td><td>1.00	</td><td>*</td><td>0.459</td><td>0.235</td><td>2.30</td><td>0.02	</td><td></td><tr class=biostyle><td>
+train_highaccel	</td><td>walk_lowaccel</td><td>-0.821</td><td>-0.000101</td><td>-0.00</td><td>1.00	</td><td>*</td><td>-1.03</td><td>-0.338</td><td>-1.78</td><td>0.08	</td><td>*</td><tr class=biostyle><td>
+asc_bus	</td><td>asc_walk</td><td>-2.65e+013</td><td>-1.00</td><td>-0.00</td><td>1.00	</td><td>*</td><td>1.54e+012</td><td>1.00</td><td>-0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+bus_highaccel	</td><td>bus_highspeed</td><td>-8.38e+005</td><td>-0.0181</td><td>0.00</td><td>1.00	</td><td>*</td><td>9.50</td><td>0.244</td><td>0.89</td><td>0.37	</td><td>*</td><tr class=biostyle><td>
+auto_highspeed	</td><td>bus_highaccel</td><td>-8.38e+005</td><td>-0.0181</td><td>-0.00</td><td>1.00	</td><td>*</td><td>-1.32</td><td>-0.0339</td><td>-0.88</td><td>0.38	</td><td>*</td><tr class=biostyle><td>
+bike_lowspeed	</td><td>bus_highaccel</td><td>7.54e+005</td><td>0.0159</td><td>-0.00</td><td>1.00	</td><td>*</td><td>1.97</td><td>0.0491</td><td>-0.92</td><td>0.36	</td><td>*</td><tr class=biostyle><td>
+auto_highaccel	</td><td>bike_midaccel</td><td>-2.89e+005</td><td>-0.139</td><td>-0.00</td><td>1.00	</td><td>*</td><td>0.326</td><td>0.229</td><td>-1.70</td><td>0.09	</td><td>*</td><tr class=biostyle><td>
+bus_midspeed	</td><td>train_higherspeed</td><td>-0.0230</td><td>-6.69e-006</td><td>-0.00</td><td>1.00	</td><td>*</td><td>0.0523</td><td>0.0295</td><td>-2.23</td><td>0.03	</td><td></td><tr class=biostyle><td>
+train_highaccel	</td><td>train_higherspeed</td><td>-0.870</td><td>-0.000131</td><td>-0.00</td><td>1.00	</td><td>*</td><td>-0.988</td><td>-0.396</td><td>-2.89</td><td>0.00	</td><td></td><tr class=biostyle><td>
+auto_midspeed	</td><td>train_higherspeed</td><td>-0.0230</td><td>-6.69e-006</td><td>-0.00</td><td>1.00	</td><td>*</td><td>0.0650</td><td>0.0536</td><td>-3.28</td><td>0.00	</td><td></td><tr class=biostyle><td>
+bus_highaccel	</td><td>walk_lowspeed</td><td>-5.34e+005</td><td>-0.0220</td><td>0.00</td><td>1.00	</td><td>*</td><td>-0.0956</td><td>-0.0140</td><td>3.93</td><td>0.00	</td><td></td><tr class=biostyle><td>
+asc_bike	</td><td>asc_train</td><td>-2.65e+013</td><td>-1.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>1.54e+012</td><td>1.00</td><td>0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+bus_highspeed	</td><td>train_highspeed</td><td>7.44e+008</td><td>0.975</td><td>-0.00</td><td>1.00	</td><td>*</td><td>1.16e+003</td><td>0.999</td><td>-12.05</td><td>0.00	</td><td></td><tr class=biostyle><td>
+auto_highspeed	</td><td>train_highspeed</td><td>7.44e+008</td><td>0.975</td><td>-0.00</td><td>1.00	</td><td>*</td><td>1.16e+003</td><td>1.00</td><td>0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+asc_auto	</td><td>asc_bike</td><td>-2.65e+013</td><td>-1.00</td><td>0.00</td><td>1.00	</td><td>*</td><td>1.54e+012</td><td>1.00</td><td>0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+auto_highaccel	</td><td>train_highaccel</td><td>1.31e+006</td><td>0.177</td><td>0.00</td><td>1.00	</td><td>*</td><td>2.26</td><td>0.583</td><td>10.73</td><td>0.00	</td><td></td><tr class=biostyle><td>
+bike_midaccel	</td><td>train_highaccel</td><td>-4.97e+005</td><td>-0.0449</td><td>0.00</td><td>1.00	</td><td>*</td><td>-0.233</td><td>-0.117</td><td>9.11</td><td>0.00	</td><td></td><tr class=biostyle><td>
+auto_highaccel	</td><td>bus_midspeed</td><td>-5.86e+005</td><td>-0.154</td><td>0.00</td><td>1.00	</td><td>*</td><td>0.705</td><td>0.256</td><td>8.12</td><td>0.00	</td><td></td><tr class=biostyle><td>
+auto_highaccel	</td><td>auto_midspeed</td><td>-5.86e+005</td><td>-0.154</td><td>0.00</td><td>1.00	</td><td>*</td><td>-0.548</td><td>-0.291</td><td>7.52</td><td>0.00	</td><td></td><tr class=biostyle><td>
+bike_midaccel	</td><td>bus_midspeed</td><td>-1.49e+006</td><td>-0.260</td><td>0.00</td><td>1.00	</td><td>*</td><td>-0.400</td><td>-0.283</td><td>9.35</td><td>0.00	</td><td></td><tr class=biostyle><td>
+bike_midaccel	</td><td>bus_highaccel</td><td>-2.89e+005</td><td>-0.0964</td><td>-0.00</td><td>1.00	</td><td>*</td><td>0.545</td><td>0.549</td><td>-12.25</td><td>0.00	</td><td></td><tr class=biostyle><td>
+auto_midspeed	</td><td>bike_midaccel</td><td>-1.49e+006</td><td>-0.260</td><td>-0.00</td><td>1.00	</td><td>*</td><td>-0.0752</td><td>-0.0778</td><td>-13.57</td><td>0.00	</td><td></td><tr class=biostyle><td>
+bus_highaccel	</td><td>train_highaccel</td><td>1.31e+006</td><td>0.123</td><td>0.01</td><td>1.00	</td><td>*</td><td>-0.651</td><td>-0.241</td><td>12.54</td><td>0.00	</td><td></td><tr class=biostyle><td>
+bike_lowspeed	</td><td>bike_midspeed</td><td>7.78e+008</td><td>0.996</td><td>-0.01</td><td>1.00	</td><td>*</td><td>1.19e+003</td><td>0.998</td><td>-6.54</td><td>0.00	</td><td></td><tr class=biostyle><td>
+bus_highaccel	</td><td>bus_midspeed</td><td>-5.86e+005</td><td>-0.107</td><td>0.01</td><td>0.99	</td><td>*</td><td>-1.08</td><td>-0.560</td><td>12.62</td><td>0.00	</td><td></td><tr class=biostyle><td>
+auto_midspeed	</td><td>bus_highaccel</td><td>-5.86e+005</td><td>-0.107</td><td>-0.01</td><td>0.99	</td><td>*</td><td>-0.117</td><td>-0.0889</td><td>-18.99</td><td>0.00	</td><td></td><tr class=biostyle><td>
+bike_midaccel	</td><td>train_higherspeed</td><td>0.00952</td><td>5.09e-006</td><td>0.01</td><td>0.99	</td><td>*</td><td>0.0511</td><td>0.0557</td><td>11.24</td><td>0.00	</td><td></td><tr class=biostyle><td>
+asc_bus	</td><td>asc_train</td><td>-2.65e+013</td><td>-1.00</td><td>-0.01</td><td>0.99	</td><td>*</td><td>1.54e+012</td><td>0.999</td><td>-0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+bike_midaccel	</td><td>walk_lowaccel</td><td>-0.986</td><td>-0.000428</td><td>0.01</td><td>0.99	</td><td>*</td><td>-0.938</td><td>-0.842</td><td>8.69</td><td>0.00	</td><td></td><tr class=biostyle><td>
+auto_highaccel	</td><td>train_higherspeed</td><td>0.0173</td><td>1.38e-005</td><td>0.01</td><td>0.99	</td><td>*</td><td>0.154</td><td>0.0865</td><td>6.37</td><td>0.00	</td><td></td><tr class=biostyle><td>
+auto_higheraccel	</td><td>bike_midaccel</td><td>-0.0681</td><td>-5.01e-005</td><td>-0.01</td><td>0.99	</td><td>*</td><td>-0.0677</td><td>-0.0944</td><td>-14.50</td><td>0.00	</td><td></td><tr class=biostyle><td>
+bike_midaccel	</td><td>bus_higheraccel</td><td>-0.0406</td><td>-3.12e-005</td><td>0.01</td><td>0.99	</td><td>*</td><td>-0.0695</td><td>-0.100</td><td>14.96</td><td>0.00	</td><td></td><tr class=biostyle><td>
+auto_highaccel	</td><td>bus_highaccel</td><td>1.39e+006</td><td>0.695</td><td>-0.01</td><td>0.99	</td><td>*</td><td>0.581</td><td>0.300</td><td>-8.76</td><td>0.00	</td><td></td><tr class=biostyle><td>
+auto_highaccel	</td><td>walk_lowaccel</td><td>-0.966</td><td>-0.000628</td><td>0.01</td><td>0.99	</td><td>*</td><td>-1.20</td><td>-0.552</td><td>5.78</td><td>0.00	</td><td></td><tr class=biostyle><td>
+auto_highaccel	</td><td>auto_higheraccel</td><td>-0.262</td><td>-0.000289</td><td>0.01</td><td>0.99	</td><td>*</td><td>-0.382</td><td>-0.273</td><td>7.42</td><td>0.00	</td><td></td><tr class=biostyle><td>
+auto_highaccel	</td><td>bus_higheraccel</td><td>-0.0932</td><td>-0.000107</td><td>0.01</td><td>0.99	</td><td>*</td><td>-0.0773</td><td>-0.0572</td><td>8.24</td><td>0.00	</td><td></td><tr class=biostyle><td>
+bus_highaccel	</td><td>train_higherspeed</td><td>0.0173</td><td>9.62e-006</td><td>0.02</td><td>0.99	</td><td>*</td><td>0.142</td><td>0.114</td><td>18.26</td><td>0.00	</td><td></td><tr class=biostyle><td>
+asc_auto	</td><td>asc_bus</td><td>-2.65e+013</td><td>-1.00</td><td>0.02</td><td>0.99	</td><td>*</td><td>1.54e+012</td><td>1.00</td><td>0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+bus_highaccel	</td><td>walk_lowaccel</td><td>-0.966</td><td>-0.000437</td><td>0.02</td><td>0.99	</td><td>*</td><td>-0.948</td><td>-0.626</td><td>13.59</td><td>0.00	</td><td></td><tr class=biostyle><td>
+auto_higheraccel	</td><td>bus_highaccel</td><td>-0.111</td><td>-8.50e-005</td><td>-0.02</td><td>0.99	</td><td>*</td><td>-0.233</td><td>-0.240</td><td>-19.12</td><td>0.00	</td><td></td><tr class=biostyle><td>
+bus_highaccel	</td><td>bus_higheraccel</td><td>-0.219</td><td>-0.000175</td><td>0.02</td><td>0.99	</td><td>*</td><td>-0.203</td><td>-0.215</td><td>19.75</td><td>0.00	</td><td></td><tr class=biostyle><td>
+auto_highspeed	</td><td>bus_highspeed</td><td>7.46e+008</td><td>1.00</td><td>-0.05</td><td>0.96	</td><td>*</td><td>1.12e+003</td><td>0.999</td><td>-0.05</td><td>0.96	</td><td>*</td><tr class=biostyle><td>
+auto_higheraccel	</td><td>walk_lowaccel</td><td>4.72e-008</td><td>4.70e-008</td><td>-0.09</td><td>0.93	</td><td>*</td><td>9.88e-008</td><td>9.03e-008</td><td>-0.08</td><td>0.93	</td><td>*</td><tr class=biostyle><td>
+bus_higheraccel	</td><td>walk_lowaccel</td><td>2.82e-008</td><td>2.94e-008</td><td>-0.30</td><td>0.76	</td><td>*</td><td>7.91e-008</td><td>7.48e-008</td><td>-0.29</td><td>0.77	</td><td>*</td><tr class=biostyle><td>
+auto_midspeed	</td><td>bus_midspeed</td><td>1.05e+007</td><td>1.00</td><td>-0.40</td><td>0.69	</td><td>*</td><td>0.598</td><td>0.319</td><td>-0.37</td><td>0.71	</td><td>*</td><tr class=biostyle><td>
+auto_higheraccel	</td><td>bus_higheraccel</td><td>0.291</td><td>0.512</td><td>0.43</td><td>0.67	</td><td>*</td><td>0.407</td><td>0.598</td><td>0.43</td><td>0.67	</td><td>*</td><tr class=biostyle><td>
+asc_auto	</td><td>asc_train</td><td>-2.65e+013</td><td>-1.00</td><td>0.47</td><td>0.64	</td><td>*</td><td>1.54e+012</td><td>1.00</td><td>0.00</td><td>1.00	</td><td>*</td><tr class=biostyle><td>
+train_higherspeed	</td><td>walk_lowaccel</td><td>-6.60e-009</td><td>-4.78e-009</td><td>1.82</td><td>0.07	</td><td>*</td><td>-4.29e-008</td><td>-3.07e-008</td><td>1.81</td><td>0.07	</td><td>*</td><tr class=biostyle><td>
+auto_higheraccel	</td><td>train_higherspeed</td><td>-0.0389</td><td>-0.0476</td><td>-2.38</td><td>0.02	</td><td></td><td>-0.378</td><td>-0.421</td><td>-1.97</td><td>0.05	</td><td></td><tr class=biostyle><td>
+bus_higheraccel	</td><td>train_higherspeed</td><td>-0.0389</td><td>-0.0498</td><td>-2.65</td><td>0.01	</td><td></td><td>-0.353</td><td>-0.406</td><td>-2.21</td><td>0.03	</td><td></td></table>
+<p>Smallest singular value of the hessian: 7.5475e-015</p>
+<h2>Unidentifiable model</h2>
+<p>The log-likelihood is (almost) flat along the following combinations of parameters</p>
+<table border="0">
+<tr class=biostyle><td>Sing. value</td><td>=</td><td>7.5475e-015</td></tr>
+<tr class=biostyle><td>-0.447084</td><td>*</td><td>asc_auto</td></tr>
+<tr class=biostyle><td>-0.44708</td><td>*</td><td>asc_bike</td></tr>
+<tr class=biostyle><td>-0.447084</td><td>*</td><td>asc_bus</td></tr>
+<tr class=biostyle><td>-0.447084</td><td>*</td><td>asc_train</td></tr>
+<tr class=biostyle><td>-0.447084</td><td>*</td><td>asc_walk</td></tr>
+<tr class=biostyle><td>-0.00223462</td><td>*</td><td>Param[21]</td></tr>
+<tr class=biostyle><td>-0.00223626</td><td>*</td><td>Param[22]</td></tr>
+<tr class=biostyle><td>-0.00223629</td><td>*</td><td>Param[23]</td></tr>
+<tr class=biostyle><td>-0.0022347</td><td>*</td><td>Param[24]</td></tr>
+<tr class=biostyle><td>-0.00223521</td><td>*</td><td>Param[25]</td></tr>
+<tr class=biostyle><td>0.0231964</td><td>*</td><td>Param[42]</td></tr>
+<tr class=biostyle><td>0.00223455</td><td>*</td><td>Param[43]</td></tr>
+<tr class=biostyle><td>0.00223455</td><td>*</td><td>Param[44]</td></tr>
+<tr class=biostyle><td>0.00223614</td><td>*</td><td>Param[45]</td></tr>
+<tr class=biostyle><td>0.00223563</td><td>*</td><td>Param[46]</td></tr>
+<tr class=biostyle><td>Sing. value</td><td>=</td><td>2.26051e-010</td></tr>
+<tr class=biostyle><td>-0.106986</td><td>*</td><td>asc_auto</td></tr>
+<tr class=biostyle><td>0.312915</td><td>*</td><td>asc_bike</td></tr>
+<tr class=biostyle><td>-0.107022</td><td>*</td><td>asc_bus</td></tr>
+<tr class=biostyle><td>-0.106986</td><td>*</td><td>asc_train</td></tr>
+<tr class=biostyle><td>0.00838446</td><td>*</td><td>asc_walk</td></tr>
+<tr class=biostyle><td>-0.000391912</td><td>*</td><td>auto_highaccel</td></tr>
+<tr class=biostyle><td>0.405872</td><td>*</td><td>auto_highspeed</td></tr>
+<tr class=biostyle><td>0.00417628</td><td>*</td><td>auto_midspeed</td></tr>
+<tr class=biostyle><td>-0.419245</td><td>*</td><td>bike_lowspeed</td></tr>
+<tr class=biostyle><td>-0.000655529</td><td>*</td><td>bike_midaccel</td></tr>
+<tr class=biostyle><td>-0.416786</td><td>*</td><td>bike_midspeed</td></tr>
+<tr class=biostyle><td>-0.000356086</td><td>*</td><td>bus_highaccel</td></tr>
+<tr class=biostyle><td>0.405872</td><td>*</td><td>bus_highspeed</td></tr>
+<tr class=biostyle><td>0.00417628</td><td>*</td><td>bus_midspeed</td></tr>
+<tr class=biostyle><td>-0.0130079</td><td>*</td><td>train_highaccel</td></tr>
+<tr class=biostyle><td>0.418488</td><td>*</td><td>train_highspeed</td></tr>
+<tr class=biostyle><td>-0.11537</td><td>*</td><td>walk_lowspeed</td></tr>
+<tr class=biostyle><td>-0.000534739</td><td>*</td><td>Param[21]</td></tr>
+<tr class=biostyle><td>0.00156517</td><td>*</td><td>Param[22]</td></tr>
+<tr class=biostyle><td>-0.000535316</td><td>*</td><td>Param[23]</td></tr>
+<tr class=biostyle><td>-0.000534757</td><td>*</td><td>Param[24]</td></tr>
+<tr class=biostyle><td>0.00202921</td><td>*</td><td>Param[28]</td></tr>
+<tr class=biostyle><td>-0.0020963</td><td>*</td><td>Param[30]</td></tr>
+<tr class=biostyle><td>-0.00208255</td><td>*</td><td>Param[32]</td></tr>
+<tr class=biostyle><td>0.0020292</td><td>*</td><td>Param[35]</td></tr>
+<tr class=biostyle><td>0.0020903</td><td>*</td><td>Param[39]</td></tr>
+<tr class=biostyle><td>-0.000576636</td><td>*</td><td>Param[41]</td></tr>
+<tr class=biostyle><td>0.00555084</td><td>*</td><td>Param[42]</td></tr>
+<tr class=biostyle><td>-0.00156398</td><td>*</td><td>Param[43]</td></tr>
+<tr class=biostyle><td>0.0005349</td><td>*</td><td>Param[44]</td></tr>
+<tr class=biostyle><td>0.000535101</td><td>*</td><td>Param[45]</td></tr>
+<tr class=biostyle><td>-0.0020295</td><td>*</td><td>Param[49]</td></tr>
+<tr class=biostyle><td>0.00209616</td><td>*</td><td>Param[51]</td></tr>
+<tr class=biostyle><td>0.00208532</td><td>*</td><td>Param[53]</td></tr>
+<tr class=biostyle><td>-0.00202951</td><td>*</td><td>Param[56]</td></tr>
+<tr class=biostyle><td>-0.00209458</td><td>*</td><td>Param[60]</td></tr>
+<tr class=biostyle><td>0.000577067</td><td>*</td><td>Param[62]</td></tr>
+<tr class=biostyle><td>Sing. value</td><td>=</td><td>3.65231e-009</td></tr>
+<tr class=biostyle><td>-0.134721</td><td>*</td><td>asc_auto</td></tr>
+<tr class=biostyle><td>-0.190201</td><td>*</td><td>asc_bike</td></tr>
+<tr class=biostyle><td>-0.135481</td><td>*</td><td>asc_bus</td></tr>
+<tr class=biostyle><td>-0.134721</td><td>*</td><td>asc_train</td></tr>
+<tr class=biostyle><td>0.59548</td><td>*</td><td>asc_walk</td></tr>
+<tr class=biostyle><td>0.00361784</td><td>*</td><td>auto_highaccel</td></tr>
+<tr class=biostyle><td>0.0123779</td><td>*</td><td>auto_highspeed</td></tr>
+<tr class=biostyle><td>0.0347139</td><td>*</td><td>auto_midspeed</td></tr>
+<tr class=biostyle><td>0.0585998</td><td>*</td><td>bike_lowspeed</td></tr>
+<tr class=biostyle><td>-0.00312029</td><td>*</td><td>bike_midaccel</td></tr>
+<tr class=biostyle><td>0.0837086</td><td>*</td><td>bike_midspeed</td></tr>
+<tr class=biostyle><td>0.00437718</td><td>*</td><td>bus_highaccel</td></tr>
+<tr class=biostyle><td>0.0123779</td><td>*</td><td>bus_highspeed</td></tr>
+<tr class=biostyle><td>0.0347139</td><td>*</td><td>bus_midspeed</td></tr>
+<tr class=biostyle><td>0.0710518</td><td>*</td><td>train_highaccel</td></tr>
+<tr class=biostyle><td>-0.055056</td><td>*</td><td>train_highspeed</td></tr>
+<tr class=biostyle><td>-0.730202</td><td>*</td><td>walk_lowspeed</td></tr>
+<tr class=biostyle><td>-0.000673366</td><td>*</td><td>Param[21]</td></tr>
+<tr class=biostyle><td>-0.000951368</td><td>*</td><td>Param[22]</td></tr>
+<tr class=biostyle><td>-0.000677667</td><td>*</td><td>Param[23]</td></tr>
+<tr class=biostyle><td>-0.00067339</td><td>*</td><td>Param[24]</td></tr>
+<tr class=biostyle><td>0.00297712</td><td>*</td><td>Param[25]</td></tr>
+<tr class=biostyle><td>0.000173578</td><td>*</td><td>Param[29]</td></tr>
+<tr class=biostyle><td>0.000293009</td><td>*</td><td>Param[30]</td></tr>
+<tr class=biostyle><td>0.000418265</td><td>*</td><td>Param[32]</td></tr>
+<tr class=biostyle><td>0.000173573</td><td>*</td><td>Param[36]</td></tr>
+<tr class=biostyle><td>0.000355338</td><td>*</td><td>Param[37]</td></tr>
+<tr class=biostyle><td>-0.000274999</td><td>*</td><td>Param[39]</td></tr>
+<tr class=biostyle><td>-0.00364965</td><td>*</td><td>Param[41]</td></tr>
+<tr class=biostyle><td>0.00698986</td><td>*</td><td>Param[42]</td></tr>
+<tr class=biostyle><td>0.00095064</td><td>*</td><td>Param[43]</td></tr>
+<tr class=biostyle><td>0.00067714</td><td>*</td><td>Param[44]</td></tr>
+<tr class=biostyle><td>0.000673823</td><td>*</td><td>Param[45]</td></tr>
+<tr class=biostyle><td>-0.00297768</td><td>*</td><td>Param[46]</td></tr>
+<tr class=biostyle><td>-0.000173561</td><td>*</td><td>Param[50]</td></tr>
+<tr class=biostyle><td>-0.000292989</td><td>*</td><td>Param[51]</td></tr>
+<tr class=biostyle><td>-0.000418822</td><td>*</td><td>Param[53]</td></tr>
+<tr class=biostyle><td>-0.000173566</td><td>*</td><td>Param[57]</td></tr>
+<tr class=biostyle><td>-0.00035518</td><td>*</td><td>Param[58]</td></tr>
+<tr class=biostyle><td>0.000275562</td><td>*</td><td>Param[60]</td></tr>
+<tr class=biostyle><td>0.00365237</td><td>*</td><td>Param[62]</td></tr>
+<tr class=biostyle><td>Sing. value</td><td>=</td><td>1.15703e-008</td></tr>
+<tr class=biostyle><td>0.0639516</td><td>*</td><td>asc_auto</td></tr>
+<tr class=biostyle><td>-0.148988</td><td>*</td><td>asc_bike</td></tr>
+<tr class=biostyle><td>0.064977</td><td>*</td><td>asc_bus</td></tr>
+<tr class=biostyle><td>0.0639516</td><td>*</td><td>asc_train</td></tr>
+<tr class=biostyle><td>-0.0440626</td><td>*</td><td>asc_walk</td></tr>
+<tr class=biostyle><td>0.00638375</td><td>*</td><td>auto_highaccel</td></tr>
+<tr class=biostyle><td>0.443552</td><td>*</td><td>auto_highspeed</td></tr>
+<tr class=biostyle><td>0.0371377</td><td>*</td><td>auto_midspeed</td></tr>
+<tr class=biostyle><td>0.21329</td><td>*</td><td>bike_lowspeed</td></tr>
+<tr class=biostyle><td>-0.000350967</td><td>*</td><td>bike_midaccel</td></tr>
+<tr class=biostyle><td>0.244193</td><td>*</td><td>bike_midspeed</td></tr>
+<tr class=biostyle><td>0.00535831</td><td>*</td><td>bus_highaccel</td></tr>
+<tr class=biostyle><td>0.443552</td><td>*</td><td>bus_highspeed</td></tr>
+<tr class=biostyle><td>0.0371377</td><td>*</td><td>bus_midspeed</td></tr>
+<tr class=biostyle><td>0.64275</td><td>*</td><td>train_highaccel</td></tr>
+<tr class=biostyle><td>-0.192814</td><td>*</td><td>train_highspeed</td></tr>
+<tr class=biostyle><td>0.108014</td><td>*</td><td>walk_lowspeed</td></tr>
+<tr class=biostyle><td>0.000319644</td><td>*</td><td>Param[21]</td></tr>
+<tr class=biostyle><td>-0.000745224</td><td>*</td><td>Param[22]</td></tr>
+<tr class=biostyle><td>0.000325012</td><td>*</td><td>Param[23]</td></tr>
+<tr class=biostyle><td>0.000319655</td><td>*</td><td>Param[24]</td></tr>
+<tr class=biostyle><td>-0.000220293</td><td>*</td><td>Param[25]</td></tr>
+<tr class=biostyle><td>0.0022176</td><td>*</td><td>Param[28]</td></tr>
+<tr class=biostyle><td>0.000185698</td><td>*</td><td>Param[29]</td></tr>
+<tr class=biostyle><td>0.00106649</td><td>*</td><td>Param[30]</td></tr>
+<tr class=biostyle><td>0.00122015</td><td>*</td><td>Param[32]</td></tr>
+<tr class=biostyle><td>0.00221759</td><td>*</td><td>Param[35]</td></tr>
+<tr class=biostyle><td>0.000185692</td><td>*</td><td>Param[36]</td></tr>
+<tr class=biostyle><td>0.00321447</td><td>*</td><td>Param[37]</td></tr>
+<tr class=biostyle><td>-0.000963087</td><td>*</td><td>Param[39]</td></tr>
+<tr class=biostyle><td>0.00053987</td><td>*</td><td>Param[41]</td></tr>
+<tr class=biostyle><td>-0.00331806</td><td>*</td><td>Param[42]</td></tr>
+<tr class=biostyle><td>0.000744654</td><td>*</td><td>Param[43]</td></tr>
+<tr class=biostyle><td>-0.000324759</td><td>*</td><td>Param[44]</td></tr>
+<tr class=biostyle><td>-0.000319861</td><td>*</td><td>Param[45]</td></tr>
+<tr class=biostyle><td>0.000220334</td><td>*</td><td>Param[46]</td></tr>
+<tr class=biostyle><td>-0.00221792</td><td>*</td><td>Param[49]</td></tr>
+<tr class=biostyle><td>-0.000185679</td><td>*</td><td>Param[50]</td></tr>
+<tr class=biostyle><td>-0.00106642</td><td>*</td><td>Param[51]</td></tr>
+<tr class=biostyle><td>-0.00122178</td><td>*</td><td>Param[53]</td></tr>
+<tr class=biostyle><td>-0.00221793</td><td>*</td><td>Param[56]</td></tr>
+<tr class=biostyle><td>-0.000185685</td><td>*</td><td>Param[57]</td></tr>
+<tr class=biostyle><td>-0.00321303</td><td>*</td><td>Param[58]</td></tr>
+<tr class=biostyle><td>0.000965059</td><td>*</td><td>Param[60]</td></tr>
+<tr class=biostyle><td>-0.000540273</td><td>*</td><td>Param[62]</td></tr>
+<tr class=biostyle><td>Sing. value</td><td>=</td><td>4.27765e-008</td></tr>
+<tr class=biostyle><td>0.0326683</td><td>*</td><td>asc_auto</td></tr>
+<tr class=biostyle><td>-0.145363</td><td>*</td><td>asc_bike</td></tr>
+<tr class=biostyle><td>0.0319748</td><td>*</td><td>asc_bus</td></tr>
+<tr class=biostyle><td>0.0326683</td><td>*</td><td>asc_train</td></tr>
+<tr class=biostyle><td>0.0479648</td><td>*</td><td>asc_walk</td></tr>
+<tr class=biostyle><td>0.0421879</td><td>*</td><td>auto_highaccel</td></tr>
+<tr class=biostyle><td>-0.0067071</td><td>*</td><td>auto_highspeed</td></tr>
+<tr class=biostyle><td>-0.647027</td><td>*</td><td>auto_midspeed</td></tr>
+<tr class=biostyle><td>0.0687911</td><td>*</td><td>bike_lowspeed</td></tr>
+<tr class=biostyle><td>0.109241</td><td>*</td><td>bike_midaccel</td></tr>
+<tr class=biostyle><td>-0.308999</td><td>*</td><td>bike_midspeed</td></tr>
+<tr class=biostyle><td>0.0428815</td><td>*</td><td>bus_highaccel</td></tr>
+<tr class=biostyle><td>-0.00670713</td><td>*</td><td>bus_highspeed</td></tr>
+<tr class=biostyle><td>-0.647027</td><td>*</td><td>bus_midspeed</td></tr>
+<tr class=biostyle><td>0.116111</td><td>*</td><td>train_highaccel</td></tr>
+<tr class=biostyle><td>-0.08063</td><td>*</td><td>train_highspeed</td></tr>
+<tr class=biostyle><td>-0.0152964</td><td>*</td><td>walk_lowspeed</td></tr>
+<tr class=biostyle><td>0.000163284</td><td>*</td><td>Param[21]</td></tr>
+<tr class=biostyle><td>-0.000727095</td><td>*</td><td>Param[22]</td></tr>
+<tr class=biostyle><td>0.000159936</td><td>*</td><td>Param[23]</td></tr>
+<tr class=biostyle><td>0.000163289</td><td>*</td><td>Param[24]</td></tr>
+<tr class=biostyle><td>0.000239802</td><td>*</td><td>Param[25]</td></tr>
+<tr class=biostyle><td>0.00021077</td><td>*</td><td>Param[26]</td></tr>
+<tr class=biostyle><td>-0.0032353</td><td>*</td><td>Param[29]</td></tr>
+<tr class=biostyle><td>0.000343967</td><td>*</td><td>Param[30]</td></tr>
+<tr class=biostyle><td>0.000545687</td><td>*</td><td>Param[31]</td></tr>
+<tr class=biostyle><td>-0.00154397</td><td>*</td><td>Param[32]</td></tr>
+<tr class=biostyle><td>0.000214075</td><td>*</td><td>Param[33]</td></tr>
+<tr class=biostyle><td>-0.00323519</td><td>*</td><td>Param[36]</td></tr>
+<tr class=biostyle><td>0.000580684</td><td>*</td><td>Param[37]</td></tr>
+<tr class=biostyle><td>-0.000402738</td><td>*</td><td>Param[39]</td></tr>
+<tr class=biostyle><td>-0.00169496</td><td>*</td><td>Param[42]</td></tr>
+<tr class=biostyle><td>0.000726539</td><td>*</td><td>Param[43]</td></tr>
+<tr class=biostyle><td>-0.000159812</td><td>*</td><td>Param[44]</td></tr>
+<tr class=biostyle><td>-0.000163394</td><td>*</td><td>Param[45]</td></tr>
+<tr class=biostyle><td>-0.000239846</td><td>*</td><td>Param[46]</td></tr>
+<tr class=biostyle><td>-0.000211109</td><td>*</td><td>Param[47]</td></tr>
+<tr class=biostyle><td>0.00323497</td><td>*</td><td>Param[50]</td></tr>
+<tr class=biostyle><td>-0.000343944</td><td>*</td><td>Param[51]</td></tr>
+<tr class=biostyle><td>-0.000546722</td><td>*</td><td>Param[52]</td></tr>
+<tr class=biostyle><td>0.00154602</td><td>*</td><td>Param[53]</td></tr>
+<tr class=biostyle><td>-0.000214742</td><td>*</td><td>Param[54]</td></tr>
+<tr class=biostyle><td>0.00323507</td><td>*</td><td>Param[57]</td></tr>
+<tr class=biostyle><td>-0.000580425</td><td>*</td><td>Param[58]</td></tr>
+<tr class=biostyle><td>0.000403563</td><td>*</td><td>Param[60]</td></tr>
+<tr class=biostyle><td>Sing. value</td><td>=</td><td>1.55753e-007</td></tr>
+<tr class=biostyle><td>-0.0806458</td><td>*</td><td>asc_auto</td></tr>
+<tr class=biostyle><td>0.43171</td><td>*</td><td>asc_bike</td></tr>
+<tr class=biostyle><td>-0.228094</td><td>*</td><td>asc_bus</td></tr>
+<tr class=biostyle><td>-0.0806458</td><td>*</td><td>asc_train</td></tr>
+<tr class=biostyle><td>-0.0421096</td><td>*</td><td>asc_walk</td></tr>
+<tr class=biostyle><td>0.261281</td><td>*</td><td>auto_highaccel</td></tr>
+<tr class=biostyle><td>-0.166401</td><td>*</td><td>auto_highspeed</td></tr>
+<tr class=biostyle><td>0.00246656</td><td>*</td><td>auto_midspeed</td></tr>
+<tr class=biostyle><td>-0.0133799</td><td>*</td><td>bike_lowspeed</td></tr>
+<tr class=biostyle><td>-0.498976</td><td>*</td><td>bike_midaccel</td></tr>
+<tr class=biostyle><td>-0.141584</td><td>*</td><td>bike_midspeed</td></tr>
+<tr class=biostyle><td>0.408729</td><td>*</td><td>bus_highaccel</td></tr>
+<tr class=biostyle><td>-0.166401</td><td>*</td><td>bus_highspeed</td></tr>
+<tr class=biostyle><td>0.00246656</td><td>*</td><td>bus_midspeed</td></tr>
+<tr class=biostyle><td>0.348144</td><td>*</td><td>train_highaccel</td></tr>
+<tr class=biostyle><td>-0.253264</td><td>*</td><td>train_highspeed</td></tr>
+<tr class=biostyle><td>-0.0385362</td><td>*</td><td>walk_lowspeed</td></tr>
+<tr class=biostyle><td>-0.000403086</td><td>*</td><td>Param[21]</td></tr>
+<tr class=biostyle><td>0.00215938</td><td>*</td><td>Param[22]</td></tr>
+<tr class=biostyle><td>-0.00114091</td><td>*</td><td>Param[23]</td></tr>
+<tr class=biostyle><td>-0.000403099</td><td>*</td><td>Param[24]</td></tr>
+<tr class=biostyle><td>-0.000210529</td><td>*</td><td>Param[25]</td></tr>
+<tr class=biostyle><td>0.00130536</td><td>*</td><td>Param[26]</td></tr>
+<tr class=biostyle><td>-0.000831945</td><td>*</td><td>Param[28]</td></tr>
+<tr class=biostyle><td>-0.00249252</td><td>*</td><td>Param[31]</td></tr>
+<tr class=biostyle><td>-0.000707452</td><td>*</td><td>Param[32]</td></tr>
+<tr class=biostyle><td>0.00204047</td><td>*</td><td>Param[33]</td></tr>
+<tr class=biostyle><td>-0.000831942</td><td>*</td><td>Param[35]</td></tr>
+<tr class=biostyle><td>0.00174111</td><td>*</td><td>Param[37]</td></tr>
+<tr class=biostyle><td>-0.00126502</td><td>*</td><td>Param[39]</td></tr>
+<tr class=biostyle><td>-0.000192609</td><td>*</td><td>Param[41]</td></tr>
+<tr class=biostyle><td>0.00418422</td><td>*</td><td>Param[42]</td></tr>
+<tr class=biostyle><td>-0.00215772</td><td>*</td><td>Param[43]</td></tr>
+<tr class=biostyle><td>0.00114003</td><td>*</td><td>Param[44]</td></tr>
+<tr class=biostyle><td>0.000403359</td><td>*</td><td>Param[45]</td></tr>
+<tr class=biostyle><td>0.000210568</td><td>*</td><td>Param[46]</td></tr>
+<tr class=biostyle><td>-0.00130746</td><td>*</td><td>Param[47]</td></tr>
+<tr class=biostyle><td>0.000832064</td><td>*</td><td>Param[49]</td></tr>
+<tr class=biostyle><td>0.00249725</td><td>*</td><td>Param[52]</td></tr>
+<tr class=biostyle><td>0.000708394</td><td>*</td><td>Param[53]</td></tr>
+<tr class=biostyle><td>-0.00204683</td><td>*</td><td>Param[54]</td></tr>
+<tr class=biostyle><td>0.000832067</td><td>*</td><td>Param[56]</td></tr>
+<tr class=biostyle><td>-0.00174033</td><td>*</td><td>Param[58]</td></tr>
+<tr class=biostyle><td>0.00126762</td><td>*</td><td>Param[60]</td></tr>
+<tr class=biostyle><td>0.000192753</td><td>*</td><td>Param[62]</td></tr>
+<tr class=biostyle><td>Sing. value</td><td>=</td><td>2.64722e-007</td></tr>
+<tr class=biostyle><td>0.135262</td><td>*</td><td>asc_auto</td></tr>
+<tr class=biostyle><td>-0.126869</td><td>*</td><td>asc_bike</td></tr>
+<tr class=biostyle><td>-0.206435</td><td>*</td><td>asc_bus</td></tr>
+<tr class=biostyle><td>0.135262</td><td>*</td><td>asc_train</td></tr>
+<tr class=biostyle><td>0.0624195</td><td>*</td><td>asc_walk</td></tr>
+<tr class=biostyle><td>0.320165</td><td>*</td><td>auto_highaccel</td></tr>
+<tr class=biostyle><td>0.00222307</td><td>*</td><td>auto_highspeed</td></tr>
+<tr class=biostyle><td>-0.0264236</td><td>*</td><td>auto_midspeed</td></tr>
+<tr class=biostyle><td>-0.0804765</td><td>*</td><td>bike_lowspeed</td></tr>
+<tr class=biostyle><td>0.342608</td><td>*</td><td>bike_midaccel</td></tr>
+<tr class=biostyle><td>0.314685</td><td>*</td><td>bike_midspeed</td></tr>
+<tr class=biostyle><td>0.661862</td><td>*</td><td>bus_highaccel</td></tr>
+<tr class=biostyle><td>0.00222292</td><td>*</td><td>bus_highspeed</td></tr>
+<tr class=biostyle><td>-0.0264237</td><td>*</td><td>bus_midspeed</td></tr>
+<tr class=biostyle><td>-0.0370134</td><td>*</td><td>train_highaccel</td></tr>
+<tr class=biostyle><td>0.359401</td><td>*</td><td>train_highspeed</td></tr>
+<tr class=biostyle><td>0.0728428</td><td>*</td><td>walk_lowspeed</td></tr>
+<tr class=biostyle><td>0.000676069</td><td>*</td><td>Param[21]</td></tr>
+<tr class=biostyle><td>-0.000634587</td><td>*</td><td>Param[22]</td></tr>
+<tr class=biostyle><td>-0.00103258</td><td>*</td><td>Param[23]</td></tr>
+<tr class=biostyle><td>0.000676092</td><td>*</td><td>Param[24]</td></tr>
+<tr class=biostyle><td>0.000312068</td><td>*</td><td>Param[25]</td></tr>
+<tr class=biostyle><td>0.00159954</td><td>*</td><td>Param[26]</td></tr>
+<tr class=biostyle><td>-0.000132124</td><td>*</td><td>Param[29]</td></tr>
+<tr class=biostyle><td>-0.000402396</td><td>*</td><td>Param[30]</td></tr>
+<tr class=biostyle><td>0.00171142</td><td>*</td><td>Param[31]</td></tr>
+<tr class=biostyle><td>0.00157238</td><td>*</td><td>Param[32]</td></tr>
+<tr class=biostyle><td>0.00330417</td><td>*</td><td>Param[33]</td></tr>
+<tr class=biostyle><td>-0.000132121</td><td>*</td><td>Param[36]</td></tr>
+<tr class=biostyle><td>-0.000185108</td><td>*</td><td>Param[37]</td></tr>
+<tr class=biostyle><td>0.00179517</td><td>*</td><td>Param[39]</td></tr>
+<tr class=biostyle><td>0.000364078</td><td>*</td><td>Param[41]</td></tr>
+<tr class=biostyle><td>-0.00701791</td><td>*</td><td>Param[42]</td></tr>
+<tr class=biostyle><td>0.000634102</td><td>*</td><td>Param[43]</td></tr>
+<tr class=biostyle><td>0.00103178</td><td>*</td><td>Param[44]</td></tr>
+<tr class=biostyle><td>-0.000676528</td><td>*</td><td>Param[45]</td></tr>
+<tr class=biostyle><td>-0.000312126</td><td>*</td><td>Param[46]</td></tr>
+<tr class=biostyle><td>-0.00160211</td><td>*</td><td>Param[47]</td></tr>
+<tr class=biostyle><td>0.000132111</td><td>*</td><td>Param[50]</td></tr>
+<tr class=biostyle><td>0.000402369</td><td>*</td><td>Param[51]</td></tr>
+<tr class=biostyle><td>-0.00171466</td><td>*</td><td>Param[52]</td></tr>
+<tr class=biostyle><td>-0.00157447</td><td>*</td><td>Param[53]</td></tr>
+<tr class=biostyle><td>-0.00331448</td><td>*</td><td>Param[54]</td></tr>
+<tr class=biostyle><td>0.000132116</td><td>*</td><td>Param[57]</td></tr>
+<tr class=biostyle><td>0.000185026</td><td>*</td><td>Param[58]</td></tr>
+<tr class=biostyle><td>-0.00179885</td><td>*</td><td>Param[60]</td></tr>
+<tr class=biostyle><td>-0.00036435</td><td>*</td><td>Param[62]</td></tr>
+<tr class=biostyle><td>Sing. value</td><td>=</td><td>3.91381e-007</td></tr>
+<tr class=biostyle><td>-0.0445397</td><td>*</td><td>asc_auto</td></tr>
+<tr class=biostyle><td>0.134437</td><td>*</td><td>asc_bike</td></tr>
+<tr class=biostyle><td>-0.0238208</td><td>*</td><td>asc_bus</td></tr>
+<tr class=biostyle><td>-0.0445399</td><td>*</td><td>asc_train</td></tr>
+<tr class=biostyle><td>-0.0214182</td><td>*</td><td>asc_walk</td></tr>
+<tr class=biostyle><td>-0.0387129</td><td>*</td><td>auto_highaccel</td></tr>
+<tr class=biostyle><td>0.137245</td><td>*</td><td>auto_highspeed</td></tr>
+<tr class=biostyle><td>-0.202048</td><td>*</td><td>auto_midspeed</td></tr>
+<tr class=biostyle><td>0.368137</td><td>*</td><td>bike_lowspeed</td></tr>
+<tr class=biostyle><td>-0.547115</td><td>*</td><td>bike_midaccel</td></tr>
+<tr class=biostyle><td>0.428078</td><td>*</td><td>bike_midspeed</td></tr>
+<tr class=biostyle><td>-0.0594318</td><td>*</td><td>bus_highaccel</td></tr>
+<tr class=biostyle><td>0.137245</td><td>*</td><td>bus_highspeed</td></tr>
+<tr class=biostyle><td>-0.202048</td><td>*</td><td>bus_midspeed</td></tr>
+<tr class=biostyle><td>-0.289133</td><td>*</td><td>train_highaccel</td></tr>
+<tr class=biostyle><td>0.387665</td><td>*</td><td>train_highspeed</td></tr>
+<tr class=biostyle><td>-0.0231216</td><td>*</td><td>walk_lowspeed</td></tr>
+<tr class=biostyle><td>-0.000222619</td><td>*</td><td>Param[21]</td></tr>
+<tr class=biostyle><td>0.000672444</td><td>*</td><td>Param[22]</td></tr>
+<tr class=biostyle><td>-0.00011915</td><td>*</td><td>Param[23]</td></tr>
+<tr class=biostyle><td>-0.000222628</td><td>*</td><td>Param[24]</td></tr>
+<tr class=biostyle><td>-0.000107081</td><td>*</td><td>Param[25]</td></tr>
+<tr class=biostyle><td>-0.000193409</td><td>*</td><td>Param[26]</td></tr>
+<tr class=biostyle><td>0.000686175</td><td>*</td><td>Param[28]</td></tr>
+<tr class=biostyle><td>-0.00101029</td><td>*</td><td>Param[29]</td></tr>
+<tr class=biostyle><td>0.00184075</td><td>*</td><td>Param[30]</td></tr>
+<tr class=biostyle><td>-0.00273298</td><td>*</td><td>Param[31]</td></tr>
+<tr class=biostyle><td>0.00213897</td><td>*</td><td>Param[32]</td></tr>
+<tr class=biostyle><td>-0.000296697</td><td>*</td><td>Param[33]</td></tr>
+<tr class=biostyle><td>0.000686172</td><td>*</td><td>Param[35]</td></tr>
+<tr class=biostyle><td>-0.00101026</td><td>*</td><td>Param[36]</td></tr>
+<tr class=biostyle><td>-0.00144599</td><td>*</td><td>Param[37]</td></tr>
+<tr class=biostyle><td>0.00193635</td><td>*</td><td>Param[39]</td></tr>
+<tr class=biostyle><td>-0.000115565</td><td>*</td><td>Param[41]</td></tr>
+<tr class=biostyle><td>0.00231089</td><td>*</td><td>Param[42]</td></tr>
+<tr class=biostyle><td>-0.00067193</td><td>*</td><td>Param[43]</td></tr>
+<tr class=biostyle><td>0.000119058</td><td>*</td><td>Param[44]</td></tr>
+<tr class=biostyle><td>0.000222771</td><td>*</td><td>Param[45]</td></tr>
+<tr class=biostyle><td>0.000107101</td><td>*</td><td>Param[46]</td></tr>
+<tr class=biostyle><td>0.00019372</td><td>*</td><td>Param[47]</td></tr>
+<tr class=biostyle><td>-0.000686273</td><td>*</td><td>Param[49]</td></tr>
+<tr class=biostyle><td>0.00101019</td><td>*</td><td>Param[50]</td></tr>
+<tr class=biostyle><td>-0.00184063</td><td>*</td><td>Param[51]</td></tr>
+<tr class=biostyle><td>0.00273817</td><td>*</td><td>Param[52]</td></tr>
+<tr class=biostyle><td>-0.00214181</td><td>*</td><td>Param[53]</td></tr>
+<tr class=biostyle><td>0.000297623</td><td>*</td><td>Param[54]</td></tr>
+<tr class=biostyle><td>-0.000686276</td><td>*</td><td>Param[56]</td></tr>
+<tr class=biostyle><td>0.00101022</td><td>*</td><td>Param[57]</td></tr>
+<tr class=biostyle><td>0.00144534</td><td>*</td><td>Param[58]</td></tr>
+<tr class=biostyle><td>-0.00194031</td><td>*</td><td>Param[60]</td></tr>
+<tr class=biostyle><td>0.000115651</td><td>*</td><td>Param[62]</td></tr>
+<tr class=biostyle><td>Sing. value</td><td>=</td><td>6.65052e-007</td></tr>
+<tr class=biostyle><td>0.223157</td><td>*</td><td>asc_auto</td></tr>
+<tr class=biostyle><td>-0.0292191</td><td>*</td><td>asc_bike</td></tr>
+<tr class=biostyle><td>-0.531119</td><td>*</td><td>asc_bus</td></tr>
+<tr class=biostyle><td>0.223157</td><td>*</td><td>asc_train</td></tr>
+<tr class=biostyle><td>0.113429</td><td>*</td><td>asc_walk</td></tr>
+<tr class=biostyle><td>-0.522454</td><td>*</td><td>auto_highaccel</td></tr>
+<tr class=biostyle><td>0.116659</td><td>*</td><td>auto_highspeed</td></tr>
+<tr class=biostyle><td>0.0598919</td><td>*</td><td>auto_midspeed</td></tr>
+<tr class=biostyle><td>0.281996</td><td>*</td><td>bike_lowspeed</td></tr>
+<tr class=biostyle><td>-0.0296197</td><td>*</td><td>bike_midaccel</td></tr>
+<tr class=biostyle><td>-0.260333</td><td>*</td><td>bike_midspeed</td></tr>
+<tr class=biostyle><td>0.231823</td><td>*</td><td>bus_highaccel</td></tr>
+<tr class=biostyle><td>0.116658</td><td>*</td><td>bus_highspeed</td></tr>
+<tr class=biostyle><td>0.0598915</td><td>*</td><td>bus_midspeed</td></tr>
+<tr class=biostyle><td>-0.222544</td><td>*</td><td>train_highaccel</td></tr>
+<tr class=biostyle><td>-0.183251</td><td>*</td><td>train_highspeed</td></tr>
+<tr class=biostyle><td>0.109728</td><td>*</td><td>walk_lowspeed</td></tr>
+<tr class=biostyle><td>0.00111539</td><td>*</td><td>Param[21]</td></tr>
+<tr class=biostyle><td>-0.000146152</td><td>*</td><td>Param[22]</td></tr>
+<tr class=biostyle><td>-0.00265663</td><td>*</td><td>Param[23]</td></tr>
+<tr class=biostyle><td>0.00111543</td><td>*</td><td>Param[24]</td></tr>
+<tr class=biostyle><td>0.000567093</td><td>*</td><td>Param[25]</td></tr>
+<tr class=biostyle><td>-0.00261017</td><td>*</td><td>Param[26]</td></tr>
+<tr class=biostyle><td>0.000583252</td><td>*</td><td>Param[28]</td></tr>
+<tr class=biostyle><td>0.000299474</td><td>*</td><td>Param[29]</td></tr>
+<tr class=biostyle><td>0.00141003</td><td>*</td><td>Param[30]</td></tr>
+<tr class=biostyle><td>-0.000147958</td><td>*</td><td>Param[31]</td></tr>
+<tr class=biostyle><td>-0.0013008</td><td>*</td><td>Param[32]</td></tr>
+<tr class=biostyle><td>0.00115731</td><td>*</td><td>Param[33]</td></tr>
+<tr class=biostyle><td>0.000583248</td><td>*</td><td>Param[35]</td></tr>
+<tr class=biostyle><td>0.000299463</td><td>*</td><td>Param[36]</td></tr>
+<tr class=biostyle><td>-0.00111297</td><td>*</td><td>Param[37]</td></tr>
+<tr class=biostyle><td>-0.000915319</td><td>*</td><td>Param[39]</td></tr>
+<tr class=biostyle><td>0.000548433</td><td>*</td><td>Param[41]</td></tr>
+<tr class=biostyle><td>-0.0115782</td><td>*</td><td>Param[42]</td></tr>
+<tr class=biostyle><td>0.00014604</td><td>*</td><td>Param[43]</td></tr>
+<tr class=biostyle><td>0.00265456</td><td>*</td><td>Param[44]</td></tr>
+<tr class=biostyle><td>-0.00111614</td><td>*</td><td>Param[45]</td></tr>
+<tr class=biostyle><td>-0.000567198</td><td>*</td><td>Param[46]</td></tr>
+<tr class=biostyle><td>0.00261437</td><td>*</td><td>Param[47]</td></tr>
+<tr class=biostyle><td>-0.000583336</td><td>*</td><td>Param[49]</td></tr>
+<tr class=biostyle><td>-0.000299444</td><td>*</td><td>Param[50]</td></tr>
+<tr class=biostyle><td>-0.00140993</td><td>*</td><td>Param[51]</td></tr>
+<tr class=biostyle><td>0.000148239</td><td>*</td><td>Param[52]</td></tr>
+<tr class=biostyle><td>0.00130253</td><td>*</td><td>Param[53]</td></tr>
+<tr class=biostyle><td>-0.00116092</td><td>*</td><td>Param[54]</td></tr>
+<tr class=biostyle><td>-0.000583336</td><td>*</td><td>Param[56]</td></tr>
+<tr class=biostyle><td>-0.000299452</td><td>*</td><td>Param[57]</td></tr>
+<tr class=biostyle><td>0.00111247</td><td>*</td><td>Param[58]</td></tr>
+<tr class=biostyle><td>0.000917193</td><td>*</td><td>Param[60]</td></tr>
+<tr class=biostyle><td>-0.000548843</td><td>*</td><td>Param[62]</td></tr>
+<tr class=biostyle><td>Sing. value</td><td>=</td><td>9.82594e-007</td></tr>
+<tr class=biostyle><td>-0.0288768</td><td>*</td><td>asc_auto</td></tr>
+<tr class=biostyle><td>0.320326</td><td>*</td><td>asc_bike</td></tr>
+<tr class=biostyle><td>-0.248332</td><td>*</td><td>asc_bus</td></tr>
+<tr class=biostyle><td>-0.0288766</td><td>*</td><td>asc_train</td></tr>
+<tr class=biostyle><td>-0.0141632</td><td>*</td><td>asc_walk</td></tr>
+<tr class=biostyle><td>-0.317547</td><td>*</td><td>auto_highaccel</td></tr>
+<tr class=biostyle><td>0.00940589</td><td>*</td><td>auto_highspeed</td></tr>
+<tr class=biostyle><td>-0.183343</td><td>*</td><td>auto_midspeed</td></tr>
+<tr class=biostyle><td>-0.500178</td><td>*</td><td>bike_lowspeed</td></tr>
+<tr class=biostyle><td>0.150975</td><td>*</td><td>bike_midaccel</td></tr>
+<tr class=biostyle><td>0.542241</td><td>*</td><td>bike_midspeed</td></tr>
+<tr class=biostyle><td>-0.0980911</td><td>*</td><td>bus_highaccel</td></tr>
+<tr class=biostyle><td>0.00940553</td><td>*</td><td>bus_highspeed</td></tr>
+<tr class=biostyle><td>-0.183343</td><td>*</td><td>bus_midspeed</td></tr>
+<tr class=biostyle><td>-0.0104578</td><td>*</td><td>train_highaccel</td></tr>
+<tr class=biostyle><td>-0.297683</td><td>*</td><td>train_highspeed</td></tr>
+<tr class=biostyle><td>-0.0147143</td><td>*</td><td>walk_lowspeed</td></tr>
+<tr class=biostyle><td>-0.000144333</td><td>*</td><td>Param[21]</td></tr>
+<tr class=biostyle><td>0.00160224</td><td>*</td><td>Param[22]</td></tr>
+<tr class=biostyle><td>-0.00124214</td><td>*</td><td>Param[23]</td></tr>
+<tr class=biostyle><td>-0.000144337</td><td>*</td><td>Param[24]</td></tr>
+<tr class=biostyle><td>-0.00158646</td><td>*</td><td>Param[26]</td></tr>
+<tr class=biostyle><td>-0.00091676</td><td>*</td><td>Param[29]</td></tr>
+<tr class=biostyle><td>-0.00250098</td><td>*</td><td>Param[30]</td></tr>
+<tr class=biostyle><td>0.00075416</td><td>*</td><td>Param[31]</td></tr>
+<tr class=biostyle><td>0.0027094</td><td>*</td><td>Param[32]</td></tr>
+<tr class=biostyle><td>-0.000489694</td><td>*</td><td>Param[33]</td></tr>
+<tr class=biostyle><td>-0.000916733</td><td>*</td><td>Param[36]</td></tr>
+<tr class=biostyle><td>-0.0014869</td><td>*</td><td>Param[39]</td></tr>
+<tr class=biostyle><td>0.00149824</td><td>*</td><td>Param[42]</td></tr>
+<tr class=biostyle><td>-0.00160102</td><td>*</td><td>Param[43]</td></tr>
+<tr class=biostyle><td>0.00124118</td><td>*</td><td>Param[44]</td></tr>
+<tr class=biostyle><td>0.000144429</td><td>*</td><td>Param[45]</td></tr>
+<tr class=biostyle><td>0.00158901</td><td>*</td><td>Param[47]</td></tr>
+<tr class=biostyle><td>0.000916668</td><td>*</td><td>Param[50]</td></tr>
+<tr class=biostyle><td>0.00250081</td><td>*</td><td>Param[51]</td></tr>
+<tr class=biostyle><td>-0.000755591</td><td>*</td><td>Param[52]</td></tr>
+<tr class=biostyle><td>-0.00271301</td><td>*</td><td>Param[53]</td></tr>
+<tr class=biostyle><td>0.000491221</td><td>*</td><td>Param[54]</td></tr>
+<tr class=biostyle><td>0.000916699</td><td>*</td><td>Param[57]</td></tr>
+<tr class=biostyle><td>0.00148994</td><td>*</td><td>Param[60]</td></tr>
+</table>
+</html>
