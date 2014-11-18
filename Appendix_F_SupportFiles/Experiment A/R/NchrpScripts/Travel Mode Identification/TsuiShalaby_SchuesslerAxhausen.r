@@ -27,7 +27,7 @@ travelModeIdentification_TsuiShalaby_SchuesslerAxhausen <- function(segments, po
   set.seed(1)
   
   library(rJava)
-  .jpackage("pkg", jars='*', morePaths='//drake/NCHRP-08-89-GPS/Workspace/Task3/FuzzyEngineGeoStatsMod.jar')
+  .jpackage("pkg", jars='*', morePaths='FuzzyEngineGeoStatsMod.jar')
   fuzzyEngine <- .jnew("fuzzy.FuzzyEngine")
   medianSpeedVar <- .jnew("fuzzy.LinguisticVariable", "medianSpeed")
   percentileAcceleration95Var <- .jnew("fuzzy.LinguisticVariable", "95pAccel")
