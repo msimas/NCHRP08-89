@@ -75,3 +75,10 @@ loadScripts <- function(dir, scripts) {
     source(paste0(dir, '/', scripts[i], '.r'))
   }
 }
+
+# Added okiAndrew
+# Projection string for local projection - example below is NAD83 Georgia State Plane West Feet
+# Get yours from http://spatialreference.org/ (search in the upper-right corner, select the correct,
+#  and get the proj4 projection string)
+#
+proj4="+proj=tmerc +lat_0=30 +lon_0=-84.16666666666667 +k=0.9999 +x_0=700000 +y_0=0 +ellps=GRS80 +datum=NAD83 +to_meter=0.3048006096012192 +no_defs"
