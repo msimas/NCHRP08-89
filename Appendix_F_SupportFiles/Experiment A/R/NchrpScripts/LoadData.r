@@ -19,5 +19,10 @@ loadData <- function(filepath) {
   data$speedmps <- 0.44704 * data$speedmph
   data$deltaseconds <- c(0, as.double(data[2:nrowdata,"datetimeutc"] - data[1:(nrowdata-1),"datetimeutc"], "secs"))
   data$accelmps2 <- c(0, (data[2:nrowdata, "speedmps"] - data[1:(nrowdata-1), "speedmps"]) / data[2:nrowdata, "deltaseconds"])
+  # Added okiAndrew to project coordinates
+  library(rgdal)
+  projected=project(cbind(data$long,data$lat),proj4)
+  data$projectedx=projected[,1]
+  data$projectedy=projected[,2]
   return(data)
 }
